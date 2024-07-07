@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useEffect } from "react";
 
 const DataPolicy = () => {
@@ -31,7 +32,7 @@ const DataPolicy = () => {
           title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."
           target="_blank"
           rel="noopener noreferrer nofollow">
-          <img
+          <Image
             src="https://datenschutz-generator.de/wp-content/plugins/ts-dsg/images/dsg-seal/dsg-seal-pp-de.png"
             alt="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."
             width="250"
