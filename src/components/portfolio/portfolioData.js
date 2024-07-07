@@ -4,155 +4,104 @@ import Image3 from "../../../public/assets/img/portfolio/project-3.jpg";
 import Image4 from "../../../public/assets/img/portfolio/project-4.jpg";
 import Image5 from "../../../public/assets/img/portfolio/project-5.jpg";
 import Image6 from "../../../public/assets/img/portfolio/project-6.jpg";
-import Image7 from "../../../public/assets/img/portfolio/project-7.jpg";
-import Image8 from "../../../public/assets/img/portfolio/project-8.jpg";
-import Image9 from "../../../public/assets/img/portfolio/project-9.jpg";
 
 const PortfolioData = [
+  // {
+  //   id: 1,
+  //   type: "personal protfolio",
+  //   image: Image1,
+  //   tag: [""],
+  //   delayAnimation: "0",
+  //   modalDetails: [
+  //     {
+  //       project: "Portfolio",
+  //       client: "Myself",
+  //       language: "Next.js, React.js, Javascript, Sass, bootstrap",
+  //       preview: "tarekstechsolutions.de",
+  //       link: "https://www.tarekstechsolutions.de",
+  //     },
+  //   ],
+  // },
   {
-    id: 1,
-    type: "mockup project",
-    image: Image1,
-    tag: ["mockup"],
+    id: 2,
+    type: "Quellenchecker",
+    image: Image2,
+    tag: [""],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Website",
-        client: "Envato",
-        language: "HTML, CSS, Javascript",
-        preview: "www.envato.com",
-        link: "https://www.envato.com/",
-      },
-    ],
-  },
-  {
-    id: 2,
-    type: "youtube project",
-    image: Image2,
-    tag: ["video"],
-    delayAnimation: "100",
-    modalDetails: [
-      {
-        project: "video",
-        client: "Videohive",
-        language: " Adobe After Effects",
-        preview: "www.videohive.net",
-        link: "https://www.videohive.net",
+        project: "Web App",
+        client: "HAW Hamburg UNI",
+        language: "React.js, Node.js, Express.js, TypeScript, MongoDB",
+        preview: "Bildung",
+        link: "",
       },
     ],
   },
   {
     id: 3,
-    type: "slider project",
+    type: "nu-dx:cycler",
     image: Image3,
     tag: [],
-    delayAnimation: "200",
+    delayAnimation: "100",
     modalDetails: [
       {
-        project: "Website",
-        client: "Themeforest",
-        language: " HTML, CSS, Javascript",
-        preview: "www.envato.com",
-        link: "https://www.envato.com",
+        project: "Desktop App",
+        client: "nu:healthcare GmbH",
+        language: "React.js, Electron.js, TypeScript, Node.js",
+        preview: "Forschung",
+        link: "",
       },
     ],
   },
   {
     id: 4,
-    type: "local project",
+    type: "fleet guard",
     image: Image4,
-    tag: ["logo", "video"],
-    delayAnimation: "0",
-    modalDetails: [
-      {
-        project: "video",
-        client: "Videohive",
-        language: " Adobe After Effects",
-        preview: "www.videohive.net",
-        link: "https://www.videohive.net",
-      },
-    ],
-  },
-  {
-    id: 5,
-    type: "saas project",
-    image: Image5,
-    tag: ["logo"],
-    delayAnimation: "100",
-    modalDetails: [
-      {
-        project: "Web Application",
-        client: "Themeforest",
-        language: "HTML, CSS, ReactJS",
-        preview: "www.envato.com",
-        link: "https://themeforest.net/item/deski-saas-software-react-template/33799794",
-      },
-    ],
-  },
-  {
-    id: 6,
-    type: "mockup project",
-    image: Image6,
-    tag: ["logo", "mockup"],
+    tag: [""],
     delayAnimation: "200",
     modalDetails: [
       {
-        project: "Website",
-        client: "Themeforest",
-        language: "HTML, CSS, Javascript",
-        preview: "www.pexels.com",
-        link: "https://www.pexels.com",
+        project: "Web App",
+        client: "Hamburg Verkehrsleitung",
+        language: "React.js, Node.js, Express.js, TypeScript, MongoDB",
+        preview: "Logistik",
+        link: "",
       },
     ],
   },
-  {
-    id: 7,
-    type: "facebook project",
-    image: Image7,
-    tag: ["logo"],
-    delayAnimation: "0",
-    modalDetails: [
-      {
-        project: "Website",
-        client: "Facebook",
-        language: "HTML, CSS, Javascript",
-        preview: "www.facebook.com",
-        link: "https://www.facebook.com/ibthemes",
-      },
-    ],
-  },
-  {
-    id: 8,
-    type: "dribble project",
-    image: Image8,
-    tag: ["graphic design"],
-    delayAnimation: "100",
-    modalDetails: [
-      {
-        project: "Website",
-        client: "Dribbble",
-        language: "HTML, CSS, Javascript",
-        preview: "www.dribbble.com",
-        link: "https://dribbble.com/ib-themes",
-      },
-    ],
-  },
-  {
-    id: 9,
-    type: "behence project",
-    image: Image9,
-    tag: ["graphic design", "mockup"],
-    delayAnimation: "200",
-    modalDetails: [
-      {
-        project: "Website",
-        client: "Behance",
-        language: "HTML, CSS, Javascript",
-        preview: "www.behance.com",
-        link: "https://www.behance.net/ib-themes",
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   type: "Web App",
+  //   image: Image5,
+  //   tag: [""],
+  //   delayAnimation: "400",
+  //   modalDetails: [
+  //     {
+  //       project: "Web App",
+  //       client: "in progress",
+  //       language: "Next.js, TypeScript, Tailwind css, Supabase",
+  //       preview: "",
+  //       link: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   type: "mockup project",
+  //   image: Image6,
+  //   tag: ["logo", "mockup"],
+  //   delayAnimation: "500",
+  //   modalDetails: [
+  //     {
+  //       project: "Website",
+  //       client: "Themeforest",
+  //       language: "HTML, CSS, Javascript",
+  //       preview: "www.pexels.com",
+  //       link: "https://www.pexels.com",
+  //     },
+  //   ],
+  // },
 ];
 
 export default PortfolioData;

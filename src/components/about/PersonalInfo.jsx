@@ -5,8 +5,8 @@ const personalInfoContent = [
   { meta: "Nachname", metaInfo: "Jassine", hasColor: "" },
   { meta: "Tätigkeit", metaInfo: "Entwickler", hasColor: "green" },
   { meta: "Sitz", metaInfo: "Hamburg", hasColor: "" },
-  { meta: "Telefon", metaInfo: "+49176/ 14266116", hasColor: "" },
-  { meta: "E-Mail", metaInfo: "you@mail.com", hasColor: "" },
+  { meta: "Telefon", metaInfo: "+49 176 1426 6116", hasColor: "" },
+  { meta: "E-Mail", metaInfo: "info@tarekstechsolutions.de", hasColor: "" },
   { meta: "Fremdsprachen", metaInfo: "Englisch", hasColor: "" },
   { meta: "Hobbies", metaInfo: "Laufen", hasColor: "" },
 ];
@@ -18,8 +18,7 @@ const PersonalInfo = () => {
         <li key={i}>
           <span className="title">{val.meta}: </span>
           <span
-            className={`value d-block d-sm-inline-block d-lg-block d-xl-inline-block ${val.hasColor}`}
-          >
+            className={`value d-block d-sm-inline-block d-lg-block d-xl-inline-block ${val.hasColor}`}>
             {val.metaInfo}
           </span>
         </li>

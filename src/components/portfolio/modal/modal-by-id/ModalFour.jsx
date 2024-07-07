@@ -1,15 +1,23 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 import CloseImg from "../../../../../public/assets/img/cancel.svg";
-import PortfolioData from '../../portfolioData';
+import PortfolioData from "../../portfolioData";
+import Slider from "react-slick";
+import img1 from "../../../../../public/assets/img/portfolio/project-1.jpg";
+import img2 from "../../../../../public/assets/img/portfolio/project-2.jpg";
 
 const ModalFour = ({ modalId, setGetModal }) => {
+  let settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    draggable: true,
+  };
   return (
     <div className="modal_portfolio">
-      <div
-        className="modal__outside"
-        onClick={() => setGetModal(false)}
-      ></div>
+      <div className="modal__outside" onClick={() => setGetModal(false)}></div>
       <div className="modal__content">
         {PortfolioData.filter((item) => item.id === modalId).map((item) => {
           //
@@ -22,7 +30,7 @@ const ModalFour = ({ modalId, setGetModal }) => {
                     <div key={i} className="row open-sans-font">
                       <div className="col-12 col-sm-6 mb-2">
                         <i className="fa fa-file-text-o pr-2"></i>
-                        Project:{" "}
+                        Projekt:{" "}
                         <span className="ft-wt-600 uppercase">
                           {details.project}
                         </span>
@@ -34,6 +42,7 @@ const ModalFour = ({ modalId, setGetModal }) => {
                           {details.client}
                         </span>
                       </div>
+
                       <div className="col-12 col-sm-6 mb-2">
                         <i className="fa fa-code pr-2"></i>
                         Language :{" "}
@@ -41,39 +50,46 @@ const ModalFour = ({ modalId, setGetModal }) => {
                           {details.language}
                         </span>
                       </div>
-                      <div className="col-12 col-sm-6 mb-2">
+
+                      {/* <div className="col-12 col-sm-6 mb-2">
+                        <i className="fa fa-signal pr-2"></i>
+                        Branche :{" "}
+                        <span className="ft-wt-600 uppercase">
+                          {details.preview}
+                        </span>
+                      </div> */}
+                      {/* <div className="col-12 col-sm-6 mb-2">
                         <i className="fa fa-external-link pr-2"></i>
-                        Preview :{" "}
+                        Branche :{" "}
                         <a
                           className="preview-link"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
-                          href={details.link}
-                        >
+                          href={details.link}>
                           {details.preview}
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   );
                 })}
               </div>
               <figure className="modal__img">
-                {/* <img src={item.image} alt="portfolio project demo" /> */}
-                <video
-                  id="video"
-                  className="responsive-video"
-                  controls
-                  poster={item.image}
-                >
-                  <source src={'/assets/img/portfolio/video.mp4'} type="video/mp4" />
-                  {/* <source src="img/" type="video/mp4" /> */}
-                </video>
+                <Slider {...settings}>
+                  <div>
+                    <Image src={item.image} alt="portfolio project demo" />
+                  </div>
+                  <div>
+                    <Image src={img1} alt="portfolio project demo" />
+                  </div>
+                  <div>
+                    <Image src={img2} alt="portfolio project demo" />
+                  </div>
+                </Slider>
               </figure>
 
               <button
                 className="close-modal"
-                onClick={() => setGetModal(false)}
-              >
+                onClick={() => setGetModal(false)}>
                 <Image src={CloseImg} alt="portfolio project demo" />
               </button>
             </div>

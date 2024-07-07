@@ -20,11 +20,7 @@ const Portfolio = () => {
       <div className="portfolio-main">
         <Tabs>
           <TabList className="portfolio-tab-list" data-aos="fade-up">
-            <Tab>ALL</Tab>
-            <Tab>LOGO</Tab>
-            <Tab>VIDEO</Tab>
-            <Tab>GRAPHIC DESIGN</Tab>
-            <Tab>MOCKUP</Tab>
+            <h5 style={{ color: "#ffb400" }}>RECENT PROJECTS</h5>
           </TabList>
 
           <div className="container">
@@ -37,12 +33,10 @@ const Portfolio = () => {
                     <div
                       key={id}
                       data-aos="fade-right"
-                      data-aos-delay={delayAnimation}
-                    >
+                      data-aos-delay={delayAnimation}>
                       <div
                         className="tab-content"
-                        onClick={() => handleModal(id)}
-                      >
+                        onClick={() => handleModal(id)}>
                         <Image src={image} alt="portfolio project demo" />
                         <h3>
                           <span className="conent-title">{type}</span>
@@ -63,12 +57,10 @@ const Portfolio = () => {
                       <div
                         key={id}
                         data-aos="fade-right"
-                        data-aos-delay={delayAnimation}
-                      >
+                        data-aos-delay={delayAnimation}>
                         <div
                           className="tab-content"
-                          onClick={() => handleModal(id)}
-                        >
+                          onClick={() => handleModal(id)}>
                           <Image src={image} alt="portfolio project demo" />
                           <h3>
                             <span className="conent-title">{type}</span>
@@ -91,12 +83,10 @@ const Portfolio = () => {
                       <div
                         key={id}
                         data-aos="fade-right"
-                        data-aos-delay={delayAnimation}
-                      >
+                        data-aos-delay={delayAnimation}>
                         <div
                           className="tab-content"
-                          onClick={() => handleModal(id)}
-                        >
+                          onClick={() => handleModal(id)}>
                           <Image src={image} alt="portfolio project demo" />
                           <h3>
                             <span className="conent-title">{type}</span>
@@ -120,12 +110,10 @@ const Portfolio = () => {
                     <div
                       key={id}
                       data-aos="fade-right"
-                      data-aos-delay={delayAnimation}
-                    >
+                      data-aos-delay={delayAnimation}>
                       <div
                         className="tab-content"
-                        onClick={() => handleModal(id)}
-                      >
+                        onClick={() => handleModal(id)}>
                         <Image src={image} alt="portfolio project demo" />
                         <h3>
                           <span className="conent-title">{type}</span>
@@ -148,12 +136,10 @@ const Portfolio = () => {
                     <div
                       key={id}
                       data-aos="fade-right"
-                      data-aos-delay={delayAnimation}
-                    >
+                      data-aos-delay={delayAnimation}>
                       <div
                         className="tab-content"
-                        onClick={() => handleModal(id)}
-                      >
+                        onClick={() => handleModal(id)}>
                         <Image src={image} alt="portfolio project demo" />
                         <h3>
                           <span className="conent-title">{type}</span>

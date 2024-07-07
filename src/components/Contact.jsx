@@ -25,15 +25,14 @@ const Contact = () => {
       <form
         id="myForm"
         className="contactform"
-        onSubmit={handleSubmit(onSubmit)}
-      >
+        onSubmit={handleSubmit(onSubmit)}>
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
               <input
                 type="text"
                 name="firstName"
-                placeholder="Vorname"
+                placeholder="Vorname*"
                 required
                 {...register("firstName")}
               />
@@ -44,7 +43,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="lastName"
-                placeholder="Nachname"
+                placeholder="Nachname*"
                 required
                 {...register("lastName")}
               />
@@ -57,7 +56,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
-                placeholder="E-Mail"
+                placeholder="E-Mail*"
                 required
                 {...register("email")}
               />
@@ -91,39 +90,30 @@ const Contact = () => {
             <div className="form-group">
               <textarea
                 name="message"
-                placeholder="Nachricht..."
+                placeholder="Nachricht...*"
                 required
-                {...register("message")}
-              ></textarea>
+                {...register("message")}></textarea>
             </div>
           </div>
 
           <div
-            className="form-group"
+            className="form-check"
             style={{
-              display: "flex",
-              justifyContent: "flex-start",
-              alignItems: "center",
-              gap: "5px",
-              marginLeft: "10px",
-              marginTop: "-10px",
-            }}
-          >
+              marginLeft: "35px",
+              marginBottom: "35px",
+            }}>
             <input
-              style={{
-                width: "17px",
-                height: "17px",
-                cursor: "pointer",
-              }}
+              className="form-check-input"
               type="checkbox"
-              id="checkbox1"
               name="dataPolicy"
-              required
+              id="flexCheckDefault"
               {...register("dataPolicy")}
+              required
             />
-            <label htmlFor="checkbox1">
-              <span style={{ cursor: "pointer" }}>
-                Hiermit akzeptiere ich die Datenschutzbestimmungen der DSGVO.
+            <label className="form-check-label" for="flexCheckDefault">
+              <span>
+                Hiermit akzeptiere ich die Datenschutzbestimmungen der
+                EU-DSGVO.*
               </span>
             </label>
           </div>
@@ -132,8 +122,7 @@ const Contact = () => {
           <div className="col-12">
             <button
               type="submit"
-              className="button revealator-slideup revealator-once revealator-delay1"
-            >
+              className="button revealator-slideup revealator-once revealator-delay1">
               <span className="button-text">Daten Senden</span>
               <span className="button-icon fa fa-send"></span>
             </button>

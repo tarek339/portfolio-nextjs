@@ -10,8 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <p>Website in development</p>
-        {/* <Wrapper>{children}</Wrapper> */}
+        <Wrapper>{children}</Wrapper>
       </body>
     </html>
   );

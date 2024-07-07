@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Modal from "react-modal";
+import DataPolicy from "./DataPolicy";
 
 // const SocialShare = [
 //   {
@@ -39,8 +40,7 @@ const Social = () => {
         className="custom-modal dark hero"
         overlayClassName="custom-overlay dark"
         closeTimeoutMS={500}
-        ariaHideApp={false}
-      >
+        ariaHideApp={false}>
         <div>
           {/* End close icon */}
 
@@ -50,11 +50,11 @@ const Social = () => {
                 <h1>
                   Daten <span>schutz</span>
                 </h1>
-                <span className="title-bg">Datenschutz</span>
+                <span className="title-bg">Privacy policy</span>
               </div>
               {/* End title */}
             </div>
-            <div></div>
+            <DataPolicy />
           </div>
         </div>
       </Modal>

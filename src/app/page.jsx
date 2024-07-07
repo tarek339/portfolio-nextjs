@@ -11,13 +11,14 @@ import SwitchDark from "../components/switch/SwitchDark";
 import AnimatedCursor from "react-animated-cursor";
 import { useEffect } from "react";
 import Aos from "aos";
+import Service from "../components/service/Service";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },
+  { icon: "fa-code", menuName: "Service" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  // { icon: "fa-comments", menuName: "Blog" },
 ];
 
 const HomeDark = () => {
@@ -58,8 +59,7 @@ const HomeDark = () => {
             <div
               className="container-fluid main-container container-home p-0 g-0"
               data-aos="fade-up"
-              data-aos-duration="1200"
-            >
+              data-aos-duration="1200">
               <div className="color-block d-none d-lg-block"></div>
               <Hero />
             </div>
@@ -81,13 +81,36 @@ const HomeDark = () => {
           </TabPanel>
           {/* About Content Ends */}
 
+          {/* Service Content Starts */}
+          <TabPanel className="blog">
+            <div
+              className="title-section text-start text-sm-center "
+              data-aos="fade-up"
+              data-aos-duration="1200">
+              <h1>
+                my <span>service</span>
+              </h1>
+              <span className="title-bg">service</span>
+            </div>
+            <div
+              className="container"
+              data-aos="fade-up"
+              data-aos-duration="1200">
+              {/*  Articles Starts  */}
+              <div className="row pb-50">
+                <Service />
+              </div>
+              {/* Articles Ends */}
+            </div>
+          </TabPanel>
+          {/* Service Content Ends */}
+
           {/* Portfolio Content Starts */}
           <TabPanel className="portfolio professional">
             <div
               className="title-section text-start text-sm-center"
               data-aos="fade-up"
-              data-aos-duration="1200"
-            >
+              data-aos-duration="1200">
               <h1>
                 my <span>portfolio</span>
               </h1>
@@ -103,8 +126,7 @@ const HomeDark = () => {
             <div
               className="title-section text-start text-sm-center"
               data-aos="fade-up"
-              data-aos-duration="1200"
-            >
+              data-aos-duration="1200">
               <h1>
                 get in <span>touch</span>
               </h1>
@@ -113,8 +135,7 @@ const HomeDark = () => {
             <div
               className="container"
               data-aos="fade-up"
-              data-aos-duration="1200"
-            >
+              data-aos-duration="1200">
               <div className="row">
                 {/*  Left Side Starts */}
                 <div className="col-12 col-lg-4">
@@ -122,9 +143,9 @@ const HomeDark = () => {
                     {"Don't"} be shy !
                   </h3>
                   <p className="open-sans-font mb-4">
-                    Feel free to get in touch with me. I am always open to
-                    discussing new projects, creative ideas or opportunities to
-                    be part of your visions.
+                    Nehmen Sie einfach Kontakt mit mir auf. Ich bin immer offen
+                    für neue Projekte, kreative Ideen oder Möglichkeiten, an
+                    Ihren Visionen mitzuwirken.
                   </p>
                   <Address />
                   {/* End Address */}
@@ -144,32 +165,6 @@ const HomeDark = () => {
             {/* End .container */}
           </TabPanel>
           {/* Contact Content Ends */}
-
-          {/* Blog Content Starts */}
-          {/* <TabPanel className="blog">
-              <div
-                className="title-section text-start text-sm-center "
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                <h1>
-                  my <span>blog</span>
-                </h1>
-                <span className="title-bg">posts</span>
-              </div>
-              <div
-                className="container"
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              > */}
-          {/*  Articles Starts  */}
-          {/* <div className="row pb-50">
-                  <Blog />
-                </div> */}
-          {/* Articles Ends */}
-          {/* </div>
-            </TabPanel> */}
-          {/* Blog Content Ends */}
         </div>
       </Tabs>
     </div>
