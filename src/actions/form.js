@@ -44,7 +44,8 @@ export const handleFormData = async (data) => {
       22391 Hamburg<br>
       USt.-IdNr.: DE355575992<br>
       Tel.: +49176/ 1426 6116<br>
-      E-Mail: info@tarekstechsolutions.de</p>`,
+      E-Mail: info@tarekstechsolutions.de<br>
+      Website: www.tarekstechsolutions.de</p>`,
     });
 
     await transport.sendMail({
