@@ -452,7 +452,7 @@ const DataPolicy = () => {
       <h2 id="m317">Geschäftliche Leistungen</h2>
       <p>
         Wir verarbeiten Daten unserer Vertrags- und Geschäftspartner, z. B.
-        Kunden und Interessenten (zusammenfassend als „Vertragspartner"
+        Kunden und Interessenten (zusammenfassend als „Vertragspartner&quot;
         bezeichnet), im Rahmen von vertraglichen und vergleichbaren
         Rechtsverhältnissen sowie damit verbundenen Maßnahmen und im Hinblick
         auf die Kommunikation mit den Vertragspartnern (oder vorvertraglich),
@@ -521,9 +521,9 @@ const DataPolicy = () => {
         </li>
         <li className="">
           <strong>Rechtsgrundlagen:</strong> Vertragserfüllung und
-          vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO);
-          Rechtliche Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c) DSGVO.
-          Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO.
+          vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO; Rechtliche
+          Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c) DSGVO. Berechtigte
+          Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO.
         </li>
       </ul>
       <p>
@@ -1174,10 +1174,10 @@ const DataPolicy = () => {
           sogenannte &quot;Bewertungs-Widgets&quot; ein. Ein Widget ist ein in
           unser Onlineangebot eingebundenes Funktions- und Inhaltselement, das
           veränderliche Informationen anzeigt. Es kann z. B. in Form eines
-          Siegels oder vergleichbaren Elements, zum Teil auch "Badge" genannt,
-          dargestellt werden. Dabei wird der entsprechende Inhalt des Widgets
-          zwar innerhalb unseres Onlineangebotes dargestellt, er wird aber in
-          diesem Moment von den Servern des jeweiligen Widgets-Anbieters
+          Siegels oder vergleichbaren Elements, zum Teil auch &quot;Badge&quot;
+          genannt, dargestellt werden. Dabei wird der entsprechende Inhalt des
+          Widgets zwar innerhalb unseres Onlineangebotes dargestellt, er wird
+          aber in diesem Moment von den Servern des jeweiligen Widgets-Anbieters
           abgerufen. Nur so kann immer der aktuelle Inhalt gezeigt werden, vor
           allem die jeweils aktuelle Bewertung. Dafür muss eine Datenverbindung
           von der innerhalb unseres Onlineangebotes aufgerufenen Webseite zu dem
