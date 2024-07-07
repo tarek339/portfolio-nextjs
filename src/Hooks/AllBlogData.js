@@ -34,7 +34,7 @@ const AllBlogData = () => {
       img: img4,
       title: "desktop app",
       description: `Die Entwicklung einer Desktopanwendung, die sowohl benutzerfreundlich als 
-      auch ästhetisch ansprechend gestaltet ist und auf allen Betriebssystemen reibungslos funktioniert.`,
+      auch ästhetisch ansprechend gestaltet ist und auf allen Betriebssystemen funktioniert.`,
     },
     {
       id: 5,
