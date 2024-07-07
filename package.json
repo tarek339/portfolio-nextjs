@@ -1,6 +1,6 @@
 {
   "name": "tarek-tech-solutions",
-  "version": "1.6.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -29,6 +29,14 @@
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "next.config.js",
   "devDependencies": {},
-  "author": "",
-  "license": "ISC"
+  "author": "tarek jassine",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarek339/portfolio-nextjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tarek339/portfolio-nextjs/issues"
+  },
+  "homepage": "https://github.com/tarek339/portfolio-nextjs#readme"
 }
