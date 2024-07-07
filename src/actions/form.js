@@ -24,28 +24,27 @@ export const handleFormData = async (data) => {
       from: "tarekjassine@gmail.com",
       to: email,
       subject: `Ihre Anfrage vom ${new Date().toLocaleDateString("de-DE")}`,
-      html: `<p>Hallo,</p>
+      html: `<p>Guten Tag,</p>
 
-      <p>Wir freuen uns über Ihre Kontaktanfrage</p>
+      <p>Ich freue mich über Ihre Kontaktanfrage</p>
 
-      <p>Wir werden uns in Kürze mit Ihnen in Verbindung setzen,<br>
+      <p>Ich werde mich in Kürze mit Ihnen in Verbindung setzen,<br>
       um weitere Details zu besprechen und auf Ihre Anforderungen einzugehen.<br>
       Dabei stehen Ihre individuellen Bedürfnisse im Vordergrund.</p>
 
       <p>Falls in der Zwischenzeit weitere Fragen auftreten sollten,<br>
-      zögern Sie bitte nicht, uns zu kontaktieren.<br>
-      Wir sind gerne für Sie da und freuen uns darauf, Ihnen weiterzuhelfen.</p>
+      zögern Sie bitte nicht, mich zu kontaktieren.<br>
+      Ich bin gerne für Sie da und freue mich darauf, Ihnen weiterzuhelfen.</p>
 
-      <p>Liebe Grüße</p>
+      <p>Mit freundlichen Grüßen</p>
 
-      <p>Firmenname</p>
-
-      <p>Firmenname<br>
+      <p>Tarek Jassine<br>
+      Tarek's Tech Solutions<br>
       Classenweg 21<br>
       22391 Hamburg<br>
       USt.-IdNr.: DE355575992<br>
-      Tel.: +49151/ 2525 8758<br>
-      E-Mail: tarekjassine@gmail.com</p>`,
+      Tel.: +49176/ 1426 6116<br>
+      E-Mail: info@tarekstechsolutions.de</p>`,
     });
 
     await transport.sendMail({
