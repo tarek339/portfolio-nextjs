@@ -6,8 +6,13 @@ const Service = () => {
   return (
     <>
       <div
-        style={{ marginBottom: "25px", textAlign: "center", color: "#ffb400" }}>
-        <h5>
+        style={{
+          marginBottom: "25px",
+          display: "flex",
+          justifyContent: "center",
+          color: "#ffb400",
+        }}>
+        <h5 style={{ width: "50%", textAlign: "center" }}>
           Hochwertige, innovative und sichere Software- und Weblösungen, um
           Ihren digitalen Fußabdruck zu verbessern.
         </h5>
