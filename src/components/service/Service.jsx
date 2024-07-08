@@ -7,7 +7,8 @@ const Service = () => {
   const { blogsData } = AllBlogData();
   return (
     <>
-      <div style={{ marginBottom: "25px", textAlign: "center" }}>
+      <div
+        style={{ marginBottom: "25px", textAlign: "center", color: "#ffb400" }}>
         <h5>
           Hochwertige, innovative und sichere Software- und Weblösungen, um
           Ihren digitalen Fußabdruck zu verbessern.
@@ -20,7 +21,7 @@ const Service = () => {
             key={item.id}
             className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
             <article className="post-container">
-              <div className="post-thumb">
+              {/* <div className="post-thumb">
                 <div className="d-block position-relative overflow-hidden">
                   <Image
                     src={item?.img}
@@ -28,7 +29,7 @@ const Service = () => {
                     alt="item.title"
                   />
                 </div>
-              </div>
+              </div> */}
               {/* End .thumb */}
               <div className="post-content">
                 <div className="entry-header">

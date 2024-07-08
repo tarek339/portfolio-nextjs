@@ -19,9 +19,15 @@ const Portfolio = () => {
     <>
       <div className="portfolio-main">
         <Tabs>
-          <TabList className="portfolio-tab-list" data-aos="fade-up">
-            <h5 style={{ color: "#ffb400" }}>RECENT PROJECTS</h5>
-          </TabList>
+          <div
+            style={{
+              marginBottom: "35px",
+              textAlign: "center",
+              textTransform: "uppercase",
+              color: "#ffb400",
+            }}>
+            <h5>Recent Projects</h5>
+          </div>
 
           <div className="container">
             <TabPanel>

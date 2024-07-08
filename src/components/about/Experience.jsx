@@ -17,7 +17,7 @@ const experienceContent = [
     Die Anwendung wurde kontinuierlich weiterentwickelt, um neue Designs und Features zu integrieren.`,
   },
   {
-    year: "2022",
+    year: "- 2022",
     position: "Webentwickler/Verkehrsleiter",
     compnayName: "Freelance",
     details: `Entwicklung und Wartung einer Webanwendung zur Überwachung und Verwaltung von Terminen 

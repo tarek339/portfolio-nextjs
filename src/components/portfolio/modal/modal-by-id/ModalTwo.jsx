@@ -3,8 +3,12 @@ import React from "react";
 import CloseImg from "../../../../../public/assets/img/cancel.svg";
 import PortfolioData from "../../portfolioData";
 import Slider from "react-slick";
-import img1 from "../../../../../public/assets/img/portfolio/project-1.jpg";
-import img2 from "../../../../../public/assets/img/portfolio/project-2.jpg";
+import img1 from "../../../../../public/assets/img/portfolio/haw/2.png";
+import img2 from "../../../../../public/assets/img/portfolio/haw/3.png";
+import img3 from "../../../../../public/assets/img/portfolio/haw/4.png";
+import img4 from "../../../../../public/assets/img/portfolio/haw/5.png";
+import img5 from "../../../../../public/assets/img/portfolio/haw/6.png";
+import img6 from "../../../../../public/assets/img/portfolio/haw/7.png";
 
 const ModalTwo = ({ modalId, setGetModal }) => {
   let settings = {
@@ -70,16 +74,25 @@ const ModalTwo = ({ modalId, setGetModal }) => {
                   );
                 })}
               </div>
-              <figure className="modal__img">
+              <figure style={{ maxHeight: "300px" }} className="modal__img">
                 <Slider {...settings}>
-                  <div>
-                    <Image src={item.image} alt="portfolio project demo" />
-                  </div>
                   <div>
                     <Image src={img1} alt="portfolio project demo" />
                   </div>
                   <div>
                     <Image src={img2} alt="portfolio project demo" />
+                  </div>
+                  <div>
+                    <Image src={img3} alt="portfolio project demo" />
+                  </div>
+                  <div>
+                    <Image src={img4} alt="portfolio project demo" />
+                  </div>
+                  <div>
+                    <Image src={img5} alt="portfolio project demo" />
+                  </div>
+                  <div>
+                    <Image src={img6} alt="portfolio project demo" />
                   </div>
                 </Slider>
               </figure>
