@@ -3,8 +3,8 @@ import React from "react";
 import CloseImg from "../../../../../public/assets/img/cancel.svg";
 import PortfolioData from "../../portfolioData";
 import Slider from "react-slick";
-import img1 from "../../../../../public/assets/img/portfolio/project-1.jpg";
-import img2 from "../../../../../public/assets/img/portfolio/project-2.jpg";
+// import img1 from "../../../../../public/assets/img/portfolio/project-1.jpg";
+// import img2 from "../../../../../public/assets/img/portfolio/project-2.jpg";
 
 const ModalOne = ({ modalId, setGetModal }) => {
   let settings = {
@@ -65,7 +65,7 @@ const ModalOne = ({ modalId, setGetModal }) => {
                 })}
               </div>
               <figure className="modal__img">
-                <Slider {...settings}>
+                {/* <Slider {...settings}>
                   <div>
                     <Image src={item.image} alt="portfolio project demo" />
                   </div>
@@ -75,7 +75,7 @@ const ModalOne = ({ modalId, setGetModal }) => {
                   <div>
                     <Image src={img2} alt="portfolio project demo" />
                   </div>
-                </Slider>
+                </Slider> */}
               </figure>
 
               <button

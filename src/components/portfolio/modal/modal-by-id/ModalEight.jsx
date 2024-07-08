@@ -1,15 +1,12 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 import CloseImg from "../../../../../public/assets/img/cancel.svg";
-import PortfolioData from '../../portfolioData';
+import PortfolioData from "../../portfolioData";
 
 const ModalEight = ({ modalId, setGetModal }) => {
   return (
     <div className="modal_portfolio">
-      <div
-        className="modal__outside"
-        onClick={() => setGetModal(false)}
-      ></div>
+      <div className="modal__outside" onClick={() => setGetModal(false)}></div>
       <div className="modal__content">
         {PortfolioData.filter((item) => item.id === modalId).map((item) => {
           //
@@ -48,8 +45,7 @@ const ModalEight = ({ modalId, setGetModal }) => {
                           className="preview-link"
                           target="_blank"
                           rel="noopener noreferrer nofollow"
-                          href={details.link}
-                        >
+                          href={details.link}>
                           {details.preview}
                         </a>
                       </div>
@@ -63,8 +59,7 @@ const ModalEight = ({ modalId, setGetModal }) => {
 
               <button
                 className="close-modal"
-                onClick={() => setGetModal(false)}
-              >
+                onClick={() => setGetModal(false)}>
                 <Image src={CloseImg} alt="portfolio project demo" />
               </button>
             </div>

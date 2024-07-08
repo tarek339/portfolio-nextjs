@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Tabs, TabPanel } from "react-tabs";
 import PortfolioData from "./portfolioData";
 import Image from "next/image";
 import ModalMain from "./modal/ModalMain";

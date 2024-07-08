@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "next/image";
 import AllBlogData from "../../Hooks/AllBlogData";
-import { Tab, TabList } from "react-tabs";
 
 const Service = () => {
   const { blogsData } = AllBlogData();
