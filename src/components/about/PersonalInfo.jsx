@@ -3,12 +3,14 @@ import React from "react";
 const personalInfoContent = [
   { meta: "Vorname", metaInfo: "Tarek", hasColor: "" },
   { meta: "Nachname", metaInfo: "Jassine", hasColor: "" },
-  { meta: "Tätigkeit", metaInfo: "Entwickler", hasColor: "green" },
-  { meta: "Sitz", metaInfo: "Hamburg", hasColor: "" },
-  { meta: "Telefon", metaInfo: "+49 176 1426 6116", hasColor: "" },
-  { meta: "E-Mail", metaInfo: "info@tarekstechsolutions.de", hasColor: "" },
+  { meta: "Location", metaInfo: "Hamburg", hasColor: "" },
   { meta: "Fremdsprachen", metaInfo: "Englisch", hasColor: "" },
-  { meta: "Hobbies", metaInfo: "Laufen", hasColor: "" },
+  { meta: "Telefon", metaInfo: "+49176 1426 6116", hasColor: "" },
+  { meta: "E-Mail", metaInfo: "tarekstechsolutions.de", hasColor: "" },
+  { meta: "Frontend Entwicklung", metaInfo: "Verfügbar", hasColor: "green" },
+  { meta: "Backend Entwicklung", metaInfo: "Verfügbar", hasColor: "green" },
+  { meta: "Fullstack Entwicklung", metaInfo: "Verfügbar", hasColor: "green" },
+  { meta: "Software Entwicklung", metaInfo: "Verfügbar", hasColor: "green" },
 ];
 
 const PersonalInfo = () => {
