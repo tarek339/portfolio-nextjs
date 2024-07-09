@@ -12,7 +12,7 @@ const Service = () => {
           justifyContent: "center",
           color: "#ffb400",
         }}>
-        <h5 style={{ width: "50%", textAlign: "center" }}>
+        <h5 className="servie-header">
           Hochwertige, innovative und sichere Software- und Weblösungen, um
           Ihren digitalen Fußabdruck zu verbessern.
         </h5>

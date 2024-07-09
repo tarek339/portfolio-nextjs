@@ -8,7 +8,6 @@ import Address from "../components/Address";
 import Social from "../components/Social";
 import Contact from "../components/Contact";
 import SwitchDark from "../components/switch/SwitchDark";
-import AnimatedCursor from "react-animated-cursor";
 import { useEffect } from "react";
 import Aos from "aos";
 import Service from "../components/service/Service";
@@ -16,7 +15,7 @@ import Service from "../components/service/Service";
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },
-  { icon: "fa-code", menuName: "Service" },
+  { icon: "fa-desktop", menuName: "Service" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
 ];
@@ -29,7 +28,7 @@ const HomeDark = () => {
   }, []);
   return (
     <div className="yellow">
-      <AnimatedCursor
+      {/* <AnimatedCursor
         innerSize={8}
         outerSize={44}
         color="255, 160, 1"
@@ -37,7 +36,7 @@ const HomeDark = () => {
         innerScale={0.7}
         outerScale={1.2}
         trailingSpeed={10}
-      />
+      /> */}
       <SwitchDark />
 
       {/* End Switcher */}

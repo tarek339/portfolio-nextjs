@@ -50,3 +50,13 @@
 .tab-list-contact {
   list-style-type: none;
 }
+
+.servie-header {
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .servie-header {
+    width: 50%;
+  }
+}

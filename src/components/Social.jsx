@@ -59,7 +59,7 @@ const Social = () => {
         </div>
       </Modal>
       <div className="social list-unstyled pt-1 mb-5">
-        <button onClick={toggleModalOne} className="data-policy-button">
+        <button onClick={toggleModalOne} className="data-policy-button dark">
           Datenschutz
         </button>
       </div>
