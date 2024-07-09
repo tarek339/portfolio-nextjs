@@ -15,13 +15,13 @@ const DataPolicy = () => {
       <p>
         Mit der folgenden Datenschutzerklärung möchten wir Sie darüber
         aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch
-        kurz als "Daten" bezeichnet) wir zu welchen Zwecken und in welchem
-        Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns
-        durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen
-        der Erbringung unserer Leistungen als auch insbesondere auf unseren
-        Webseiten, in mobilen Applikationen sowie innerhalb externer
+        kurz als &quot;Daten&quot; bezeichnet) wir zu welchen Zwecken und in
+        welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von
+        uns durchgeführten Verarbeitungen personenbezogener Daten, sowohl im
+        Rahmen der Erbringung unserer Leistungen als auch insbesondere auf
+        unseren Webseiten, in mobilen Applikationen sowie innerhalb externer
         Onlinepräsenzen, wie z. B. unserer Social-Media-Profile (nachfolgend
-        zusammenfassend bezeichnet als "Onlineangebot").
+        zusammenfassend bezeichnet als &quot;Onlineangebot&quot;).
       </p>
       <p>Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
 
@@ -209,7 +209,7 @@ const DataPolicy = () => {
       </p>
       <ul>
         <li>
-          <strong>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO)</strong> - Die
+          <strong>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO</strong> - Die
           betroffene Person hat ihre Einwilligung in die Verarbeitung der sie
           betreffenden personenbezogenen Daten für einen spezifischen Zweck oder
           mehrere bestimmte Zwecke gegeben.
@@ -217,7 +217,7 @@ const DataPolicy = () => {
         <li>
           <strong>
             Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1
-            lit. b) DSGVO)
+            lit. b) DSGVO
           </strong>
           - Die Verarbeitung ist für die Erfüllung eines Vertrags, dessen
           Vertragspartei die betroffene Person ist, oder zur Durchführung
@@ -226,14 +226,14 @@ const DataPolicy = () => {
         </li>
         <li>
           <strong>
-            Rechtliche Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c) DSGVO)
+            Rechtliche Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c) DSGVO
           </strong>
           - Die Verarbeitung ist zur Erfüllung einer rechtlichen Verpflichtung
           erforderlich, der der Verantwortliche unterliegt.
         </li>
         <li>
           <strong>
-            Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)
+            Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO
           </strong>{" "}
           - die Verarbeitung ist zur Wahrung der berechtigten Interessen des
           Verantwortlichen oder eines Dritten notwendig, vorausgesetzt, dass die
@@ -261,12 +261,14 @@ const DataPolicy = () => {
         diesem Grund bitten wir Sie zu beachten, dass aufgrund der breiteren
         räumlichen Anwendung und Verständlichkeit die Begriffe der DSGVO
         verwendet werden. Insbesondere statt der im Schweizer DSG verwendeten
-        Begriffe „Bearbeitung" von „Personendaten", "überwiegendes Interesse"
-        und "besonders schützenswerte Personendaten" werden die in der DSGVO
-        verwendeten Begriffe „Verarbeitung" von „personenbezogenen Daten" sowie
-        "berechtigtes Interesse" und "besondere Kategorien von Daten" verwendet.
-        Die gesetzliche Bedeutung der Begriffe wird jedoch im Rahmen der Geltung
-        des Schweizer DSG weiterhin nach dem Schweizer DSG bestimmt.
+        Begriffe „Bearbeitung&quot; von „Personendaten&quot;,
+        &quot;überwiegendes Interesse&quot; und &quot;besonders schützenswerte
+        Personendaten&quot; werden die in der DSGVO verwendeten Begriffe
+        „Verarbeitung&quot; von „personenbezogenen Daten&quot; sowie
+        &quot;berechtigtes Interesse&quot; und &quot;besondere Kategorien von
+        Daten&quot; verwendet. Die gesetzliche Bedeutung der Begriffe wird
+        jedoch im Rahmen der Geltung des Schweizer DSG weiterhin nach dem
+        Schweizer DSG bestimmt.
       </p>
 
       <h2 id="m27">Sicherheitsmaßnahmen</h2>
@@ -466,7 +468,7 @@ const DataPolicy = () => {
       <h2 id="m317">Geschäftliche Leistungen</h2>
       <p>
         Wir verarbeiten Daten unserer Vertrags- und Geschäftspartner, z. B.
-        Kunden und Interessenten (zusammenfassend als „Vertragspartner"
+        Kunden und Interessenten (zusammenfassend als „Vertragspartner&quot;
         bezeichnet), im Rahmen von vertraglichen und vergleichbaren
         Rechtsverhältnissen sowie damit verbundenen Maßnahmen und im Hinblick
         auf die Kommunikation mit den Vertragspartnern (oder vorvertraglich),
@@ -530,14 +532,14 @@ const DataPolicy = () => {
         </li>
         <li>
           <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend
-          Angaben im Abschnitt "Allgemeine Informationen zur Datenspeicherung
-          und Löschung".
+          Angaben im Abschnitt &quot;Allgemeine Informationen zur
+          Datenspeicherung und Löschung&quot;.
         </li>
         <li className="">
           <strong>Rechtsgrundlagen:</strong> Vertragserfüllung und
-          vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO);
-          Rechtliche Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c) DSGVO).
-          Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+          vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO; Rechtliche
+          Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c) DSGVO. Berechtigte
+          Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO.
         </li>
       </ul>
       <p>
@@ -555,26 +557,26 @@ const DataPolicy = () => {
           Beratungsleistungen und Schulungsleistungen gehören können;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Vertragserfüllung und
-            vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO).
+            vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO.
           </span>
         </li>
         <li>
           <strong>Consulting: </strong>Wir verarbeiten die Daten unserer
           Klienten sowie Interessenten und anderer Auftraggeber oder
-          Vertragspartner (einheitlich bezeichnet als "Klienten"), um ihnen
-          gegenüber unsere Leistungen erbringen zu können. Zu den Verfahren, die
-          im Rahmen und zu den Zwecken des Consultings gehören, zählen:
-          Kontaktaufnahme und Kommunikation mit den Klienten, Durchführung von
-          Bedarfs- und Anforderungsanalysen, Planung und Implementierung von
-          Beratungsprojekten, Dokumentation der Projektfortschritte und
-          Ergebnisse, Erfassung und Verwaltung klientspezifischer Informationen
-          und Daten, Terminplanung und -organisation, Bereitstellung von
-          Beratungsressourcen und -materialien, Abrechnung und
-          Zahlungsverwaltung, Nachbearbeitung und Follow-up von
-          Beratungsprojekten, Qualitätssicherungs- und Feedback-Prozesse. Die
-          verarbeiteten Daten, die Art, der Umfang, der Zweck und die
-          Erforderlichkeit ihrer Verarbeitung bestimmen sich nach dem
-          zugrundeliegenden Vertrags- und Klientenverhältnis.
+          Vertragspartner (einheitlich bezeichnet als &quot;Klienten&quot;), um
+          ihnen gegenüber unsere Leistungen erbringen zu können. Zu den
+          Verfahren, die im Rahmen und zu den Zwecken des Consultings gehören,
+          zählen: Kontaktaufnahme und Kommunikation mit den Klienten,
+          Durchführung von Bedarfs- und Anforderungsanalysen, Planung und
+          Implementierung von Beratungsprojekten, Dokumentation der
+          Projektfortschritte und Ergebnisse, Erfassung und Verwaltung
+          klientspezifischer Informationen und Daten, Terminplanung und
+          -organisation, Bereitstellung von Beratungsressourcen und
+          -materialien, Abrechnung und Zahlungsverwaltung, Nachbearbeitung und
+          Follow-up von Beratungsprojekten, Qualitätssicherungs- und
+          Feedback-Prozesse. Die verarbeiteten Daten, die Art, der Umfang, der
+          Zweck und die Erforderlichkeit ihrer Verarbeitung bestimmen sich nach
+          dem zugrundeliegenden Vertrags- und Klientenverhältnis.
           <br />
           <br />
           Sofern es für unsere Vertragserfüllung, zum Schutz lebenswichtiger
@@ -585,7 +587,7 @@ const DataPolicy = () => {
           IT, der Büro- oder vergleichbarer Dienstleistungen;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Vertragserfüllung und
-            vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO).
+            vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO.
           </span>
         </li>
         <li>
@@ -629,18 +631,18 @@ const DataPolicy = () => {
           gewährleisten;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Vertragserfüllung und
-            vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO),
-            Rechtliche Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c) DSGVO),
-            Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+            vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO,
+            Rechtliche Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c) DSGVO,
+            Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO.
           </span>
         </li>
         <li>
           <strong>Projekt- und Entwicklungsleistungen: </strong>Wir verarbeiten
           die Daten unserer Kunden sowie Auftraggeber (nachfolgend einheitlich
-          als "Kunden" bezeichnet), um ihnen die Auswahl, den Erwerb bzw. die
-          Beauftragung der gewählten Leistungen oder Werke sowie verbundener
-          Tätigkeiten als auch deren Bezahlung und Zurverfügungstellung bzw.
-          Ausführung oder Erbringung zu ermöglichen.
+          als &quot;Kunden&quot; bezeichnet), um ihnen die Auswahl, den Erwerb
+          bzw. die Beauftragung der gewählten Leistungen oder Werke sowie
+          verbundener Tätigkeiten als auch deren Bezahlung und
+          Zurverfügungstellung bzw. Ausführung oder Erbringung zu ermöglichen.
           <br />
           <br />
           Die erforderlichen Angaben sind als solche im Rahmen des Auftrags-,
@@ -652,7 +654,7 @@ const DataPolicy = () => {
           gesetzlichen und vertraglichen Vorgaben;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Vertragserfüllung und
-            vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO).
+            vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO.
           </span>
         </li>
       </ul>
@@ -689,12 +691,12 @@ const DataPolicy = () => {
         </li>
         <li>
           <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend
-          Angaben im Abschnitt "Allgemeine Informationen zur Datenspeicherung
-          und Löschung".
+          Angaben im Abschnitt &quot;Allgemeine Informationen zur
+          Datenspeicherung und Löschung&quot;.
         </li>
         <li className="">
           <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs.
-          1 S. 1 lit. f) DSGVO).
+          1 S. 1 lit. f) DSGVO.
         </li>
       </ul>
       <p>
@@ -709,11 +711,11 @@ const DataPolicy = () => {
           </strong>
           Für die Bereitstellung unseres Onlineangebotes nutzen wir
           Speicherplatz, Rechenkapazität und Software, die wir von einem
-          entsprechenden Serveranbieter (auch "Webhoster" genannt) mieten oder
-          anderweitig beziehen;
+          entsprechenden Serveranbieter (auch &quot;Webhoster&quot; genannt)
+          mieten oder anderweitig beziehen;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO).
+            Abs. 1 S. 1 lit. f) DSGVO.
           </span>
         </li>
         <li>
@@ -734,7 +736,7 @@ const DataPolicy = () => {
           Verantwortung übernehmen;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO).
+            Abs. 1 S. 1 lit. f) DSGVO.
           </span>
         </li>
         <li>
@@ -746,7 +748,7 @@ const DataPolicy = () => {
           Walnut, CA 91789, USA;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://vercel.com" target="_blank">
@@ -809,13 +811,13 @@ const DataPolicy = () => {
         </li>
         <li>
           <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend
-          Angaben im Abschnitt "Allgemeine Informationen zur Datenspeicherung
-          und Löschung".
+          Angaben im Abschnitt &quot;Allgemeine Informationen zur
+          Datenspeicherung und Löschung&quot;.
         </li>
         <li className="">
           <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs.
-          1 S. 1 lit. f) DSGVO). Vertragserfüllung und vorvertragliche Anfragen
-          (Art. 6 Abs. 1 S. 1 lit. b) DSGVO).
+          1 S. 1 lit. f) DSGVO. Vertragserfüllung und vorvertragliche Anfragen
+          (Art. 6 Abs. 1 S. 1 lit. b) DSGVO.
         </li>
       </ul>
       <p>
@@ -835,8 +837,8 @@ const DataPolicy = () => {
           für den angegebenen Zweck der Kontaktaufnahme und Kommunikation;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Vertragserfüllung und
-            vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO),
-            Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+            vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO,
+            Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO.
           </span>
         </li>
         <li>
@@ -857,7 +859,7 @@ const DataPolicy = () => {
           Verantwortung übernehmen;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO).
+            Abs. 1 S. 1 lit. f) DSGVO.
           </span>
         </li>
       </ul>
@@ -866,11 +868,12 @@ const DataPolicy = () => {
       </h2>
       <p>
         Wir setzen Plattformen und Anwendungen anderer Anbieter (nachfolgend
-        bezeichnet als "Konferenzplattformen") zu Zwecken der Durchführung von
-        Video- und Audio-Konferenzen, Webinaren und sonstigen Arten von Video
-        und Audio-Meetings (nachfolgend zusammenfassend bezeichnet als
-        "Konferenz") ein. Bei der Auswahl der Konferenzplattformen und ihrer
-        Leistungen beachten wir die gesetzlichen Vorgaben.
+        bezeichnet als &quot;Konferenzplattformen&quot;) zu Zwecken der
+        Durchführung von Video- und Audio-Konferenzen, Webinaren und sonstigen
+        Arten von Video und Audio-Meetings (nachfolgend zusammenfassend
+        bezeichnet als &quot;Konferenz&quot;) ein. Bei der Auswahl der
+        Konferenzplattformen und ihrer Leistungen beachten wir die gesetzlichen
+        Vorgaben.
       </p>
       <p>
         <strong>Durch Konferenzplattformen verarbeitete Daten:</strong> Im
@@ -957,12 +960,12 @@ const DataPolicy = () => {
         </li>
         <li>
           <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend
-          Angaben im Abschnitt "Allgemeine Informationen zur Datenspeicherung
-          und Löschung".
+          Angaben im Abschnitt &quot;Allgemeine Informationen zur
+          Datenspeicherung und Löschung&quot;.
         </li>
         <li className="">
           <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs.
-          1 S. 1 lit. f) DSGVO).
+          1 S. 1 lit. f) DSGVO.
         </li>
       </ul>
       <p>
@@ -977,7 +980,7 @@ const DataPolicy = () => {
           Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://hangouts.google.com/" target="_blank">
@@ -1006,7 +1009,7 @@ const DataPolicy = () => {
           18, D18 P521, Irland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a
@@ -1034,7 +1037,7 @@ const DataPolicy = () => {
           Irland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://slack.com/intl/de-de/" target="_blank">
@@ -1059,7 +1062,7 @@ const DataPolicy = () => {
           Göppingen, Deutschland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://www.teamviewer.com/de/" target="_blank">
@@ -1080,7 +1083,7 @@ const DataPolicy = () => {
           1 no. 101, 6700 Måløy, Norwegen;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://whereby.com/" target="_blank">
@@ -1107,7 +1110,7 @@ const DataPolicy = () => {
           Almaden Blvd., Suite 600, San Jose, CA 95113, USA;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://zoom.us" target="_blank">
@@ -1132,7 +1135,7 @@ const DataPolicy = () => {
       </ul>
       <h2 id="m263">Webanalyse, Monitoring und Optimierung</h2>
       <p>
-        Die Webanalyse (auch als „Reichweitenmessung" bezeichnet) dient der
+        Die Webanalyse (auch als „Reichweitenmessung&quot; bezeichnet) dient der
         Auswertung der Besucherströme unseres Onlineangebots und kann Verhalten,
         Interessen oder demografische Informationen zu den Besuchern, wie
         beispielsweise Alter oder Geschlecht, als pseudonyme Werte umfassen.
@@ -1200,11 +1203,11 @@ const DataPolicy = () => {
         </li>
         <li>
           <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend
-          Angaben im Abschnitt "Allgemeine Informationen zur Datenspeicherung
-          und Löschung". Speicherung von Cookies von bis zu 2 Jahren (Sofern
-          nicht anders angegeben, können Cookies und ähnliche Speichermethoden
-          für einen Zeitraum von zwei Jahren auf den Geräten der Nutzer
-          gespeichert werden.).
+          Angaben im Abschnitt &quot;Allgemeine Informationen zur
+          Datenspeicherung und Löschung&quot;. Speicherung von Cookies von bis
+          zu 2 Jahren (Sofern nicht anders angegeben, können Cookies und
+          ähnliche Speichermethoden für einen Zeitraum von zwei Jahren auf den
+          Geräten der Nutzer gespeichert werden.).
         </li>
         <li>
           <strong>Sicherheitsmaßnahmen:</strong> IP-Masking (Pseudonymisierung
@@ -1212,8 +1215,8 @@ const DataPolicy = () => {
         </li>
         <li className="">
           <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1
-          lit. a) DSGVO). Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-          DSGVO).
+          lit. a) DSGVO. Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
+          DSGVO.
         </li>
       </ul>
       <h2 id="m299">Kundenrezensionen und Bewertungsverfahren</h2>
@@ -1256,7 +1259,7 @@ const DataPolicy = () => {
         </li>
         <li className="">
           <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs.
-          1 S. 1 lit. f) DSGVO).
+          1 S. 1 lit. f) DSGVO.
         </li>
       </ul>
       <p>
@@ -1267,13 +1270,13 @@ const DataPolicy = () => {
       <ul className="m-elements">
         <li>
           <strong>Bewertungs-Widget: </strong>Wir binden in unser Onlineangebot
-          sogenannte "Bewertungs-Widgets" ein. Ein Widget ist ein in unser
-          Onlineangebot eingebundenes Funktions- und Inhaltselement, das
+          sogenannte &quot;Bewertungs-Widgets&quot; ein. Ein Widget ist ein in
+          unser Onlineangebot eingebundenes Funktions- und Inhaltselement, das
           veränderliche Informationen anzeigt. Es kann z. B. in Form eines
-          Siegels oder vergleichbaren Elements, zum Teil auch "Badge" genannt,
-          dargestellt werden. Dabei wird der entsprechende Inhalt des Widgets
-          zwar innerhalb unseres Onlineangebotes dargestellt, er wird aber in
-          diesem Moment von den Servern des jeweiligen Widgets-Anbieters
+          Siegels oder vergleichbaren Elements, zum Teil auch &quot;Badge&quot;
+          genannt, dargestellt werden. Dabei wird der entsprechende Inhalt des
+          Widgets zwar innerhalb unseres Onlineangebotes dargestellt, er wird
+          aber in diesem Moment von den Servern des jeweiligen Widgets-Anbieters
           abgerufen. Nur so kann immer der aktuelle Inhalt gezeigt werden, vor
           allem die jeweils aktuelle Bewertung. Dafür muss eine Datenverbindung
           von der innerhalb unseres Onlineangebotes aufgerufenen Webseite zu dem
@@ -1290,7 +1293,7 @@ const DataPolicy = () => {
           Marktforschungszwecke verwendet werden;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO).
+            Abs. 1 S. 1 lit. f) DSGVO.
           </span>
         </li>
         <li>
@@ -1300,7 +1303,7 @@ const DataPolicy = () => {
           Barrow Street, Dublin 4, Irland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://www.google.com/" target="_blank">
@@ -1395,12 +1398,12 @@ const DataPolicy = () => {
         </li>
         <li>
           <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend
-          Angaben im Abschnitt "Allgemeine Informationen zur Datenspeicherung
-          und Löschung".
+          Angaben im Abschnitt &quot;Allgemeine Informationen zur
+          Datenspeicherung und Löschung&quot;.
         </li>
         <li className="">
           <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs.
-          1 S. 1 lit. f) DSGVO).
+          1 S. 1 lit. f) DSGVO.
         </li>
       </ul>
       <p>
@@ -1417,7 +1420,7 @@ const DataPolicy = () => {
           Merrion Road, Dublin 4, D04 X2K5, Irland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://www.instagram.com" target="_blank">
@@ -1434,30 +1437,30 @@ const DataPolicy = () => {
           <strong>Facebook-Seiten: </strong>Profile innerhalb des sozialen
           Netzwerks Facebook - Wir sind gemeinsam mit Meta Platforms Ireland
           Limited für die Erhebung (jedoch nicht die weitere Verarbeitung) von
-          Daten der Besucher unserer Facebook-Seite (sog. "Fanpage")
+          Daten der Besucher unserer Facebook-Seite (sog. &quot;Fanpage&quot;)
           verantwortlich. Zu diesen Daten gehören Informationen zu den Arten von
           Inhalten, die Nutzer sich ansehen oder mit denen sie interagieren,
           oder die von ihnen vorgenommenen Handlungen (siehe unter „Von dir und
-          anderen getätigte und bereitgestellte Dinge" in der
+          anderen getätigte und bereitgestellte Dinge&quot; in der
           Facebook-Datenrichtlinie:
           <a href="https://www.facebook.com/privacy/policy/" target="_blank">
             https://www.facebook.com/privacy/policy/
           </a>
           ), sowie Informationen über die von den Nutzern genutzten Geräte
           (z. B. IP-Adressen, Betriebssystem, Browsertyp, Spracheinstellungen,
-          Cookie-Daten; siehe unter „Geräteinformationen" in der
+          Cookie-Daten; siehe unter „Geräteinformationen&quot; in der
           Facebook-Datenrichtlinie:
           <a href="https://www.facebook.com/privacy/policy/" target="_blank">
             https://www.facebook.com/privacy/policy/
           </a>
           ). Wie in der Facebook-Datenrichtlinie unter „Wie verwenden wir diese
-          Informationen?" erläutert, erhebt und verwendet Facebook Informationen
-          auch, um Analysedienste, so genannte "Seiten-Insights", für
-          Seitenbetreiber bereitzustellen, damit diese Erkenntnisse darüber
-          erhalten, wie Personen mit ihren Seiten und mit den mit ihnen
-          verbundenen Inhalten interagieren. Wir haben mit Facebook eine
-          spezielle Vereinbarung abgeschlossen ("Informationen zu
-          Seiten-Insights",
+          Informationen?&quot; erläutert, erhebt und verwendet Facebook
+          Informationen auch, um Analysedienste, so genannte
+          &quot;Seiten-Insights&quot;, für Seitenbetreiber bereitzustellen,
+          damit diese Erkenntnisse darüber erhalten, wie Personen mit ihren
+          Seiten und mit den mit ihnen verbundenen Inhalten interagieren. Wir
+          haben mit Facebook eine spezielle Vereinbarung abgeschlossen
+          (&quot;Informationen zu Seiten-Insights&quot;,
           <a
             href="https://www.facebook.com/legal/terms/page_controller_addendum"
             target="_blank">
@@ -1470,7 +1473,7 @@ const DataPolicy = () => {
           Nutzer (insbesondere auf Auskunft, Löschung, Widerspruch und
           Beschwerde bei zuständiger Aufsichtsbehörde), werden durch die
           Vereinbarungen mit Facebook nicht eingeschränkt. Weitere Hinweise
-          finden sich in den "Informationen zu Seiten-Insights" (
+          finden sich in den &quot;Informationen zu Seiten-Insights&quot; (
           <a
             href="https://www.facebook.com/legal/terms/information_about_page_insights_data"
             target="_blank">
@@ -1486,7 +1489,7 @@ const DataPolicy = () => {
           Merrion Road, Dublin 4, D04 X2K5, Irland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://www.facebook.com" target="_blank">
@@ -1500,45 +1503,45 @@ const DataPolicy = () => {
           Framework (DPF).
         </li>
         <li>
-          <strong>Facebook-Gruppen: </strong>Wir nutzen die Funktion "Gruppen"
-          der Facebook-Plattform, um Interessensgruppen zu erstellen, innerhalb
-          derer Facebook-Nutzer untereinander oder mit uns in Kontakt treten und
-          Informationen austauschen können. Hierbei verarbeiten wir
-          personenbezogene Daten der Nutzer unserer Gruppen soweit dies zum
-          Zweck der Gruppennutzung sowie deren Moderation erforderlich sind.
-          Unsere Richtlinien innerhalb der Gruppen können weitere Vorgaben und
-          Informationen zu der Nutzung der jeweiligen Gruppe enthalten. Diese
-          Daten umfassen Angaben zu Vor- und Nachnamen, sowie publizierte oder
-          privat mitgeteilte Inhalte, als auch Werte zum Status der
-          Gruppenmitgliedschaft oder Gruppenbezogene Aktivitäten, wie z. B. Ein-
-          oder Austritt als auch die Zeitangaben zu den vorgenannten Daten.
-          Ferner verweisen wir auf die Verarbeitung von Daten der Nutzer durch
-          Facebook selbst. Zu diesen Daten gehören Informationen zu den Arten
-          von Inhalten, die Nutzer sich ansehen oder mit denen sie interagieren,
-          oder die von ihnen vorgenommenen Handlungen (siehe unter „Von dir und
-          anderen getätigte und bereitgestellte Dinge" in der
+          <strong>Facebook-Gruppen: </strong>Wir nutzen die Funktion
+          &quot;Gruppen&quot; der Facebook-Plattform, um Interessensgruppen zu
+          erstellen, innerhalb derer Facebook-Nutzer untereinander oder mit uns
+          in Kontakt treten und Informationen austauschen können. Hierbei
+          verarbeiten wir personenbezogene Daten der Nutzer unserer Gruppen
+          soweit dies zum Zweck der Gruppennutzung sowie deren Moderation
+          erforderlich sind. Unsere Richtlinien innerhalb der Gruppen können
+          weitere Vorgaben und Informationen zu der Nutzung der jeweiligen
+          Gruppe enthalten. Diese Daten umfassen Angaben zu Vor- und Nachnamen,
+          sowie publizierte oder privat mitgeteilte Inhalte, als auch Werte zum
+          Status der Gruppenmitgliedschaft oder Gruppenbezogene Aktivitäten, wie
+          z. B. Ein- oder Austritt als auch die Zeitangaben zu den vorgenannten
+          Daten. Ferner verweisen wir auf die Verarbeitung von Daten der Nutzer
+          durch Facebook selbst. Zu diesen Daten gehören Informationen zu den
+          Arten von Inhalten, die Nutzer sich ansehen oder mit denen sie
+          interagieren, oder die von ihnen vorgenommenen Handlungen (siehe unter
+          „Von dir und anderen getätigte und bereitgestellte Dinge&quot; in der
           Facebook-Datenrichtlinie:
           <a href="https://www.facebook.com/privacy/policy/" target="_blank">
             https://www.facebook.com/privacy/policy/
           </a>
           ), sowie Informationen über die von den Nutzern genutzten Geräte
           (z. B. IP-Adressen, Betriebssystem, Browsertyp, Spracheinstellungen,
-          Cookie-Daten; siehe unter „Geräteinformationen" in der
+          Cookie-Daten; siehe unter „Geräteinformationen&quot; in der
           Facebook-Datenrichtlinie:
           <a href="https://www.facebook.com/privacy/policy/" target="_blank">
             https://www.facebook.com/privacy/policy/
           </a>
           ). Wie in der Facebook-Datenrichtlinie unter „Wie verwenden wir diese
-          Informationen?" erläutert, erhebt und verwendet Facebook Informationen
-          auch, um Analysedienste, so genannte "Insights", für Gruppenbetreiber
-          bereitzustellen, damit diese Erkenntnisse darüber erhalten, wie
-          Personen mit ihren Gruppen und mit den mit ihnen verbundenen Inhalten
-          interagieren;
+          Informationen?&quot; erläutert, erhebt und verwendet Facebook
+          Informationen auch, um Analysedienste, so genannte
+          &quot;Insights&quot;, für Gruppenbetreiber bereitzustellen, damit
+          diese Erkenntnisse darüber erhalten, wie Personen mit ihren Gruppen
+          und mit den mit ihnen verbundenen Inhalten interagieren;
           <strong>Dienstanbieter:</strong> Meta Platforms Ireland Limited,
           Merrion Road, Dublin 4, D04 X2K5, Irland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://www.facebook.com" target="_blank">
@@ -1554,41 +1557,42 @@ const DataPolicy = () => {
         <li>
           <strong>Facebook-Veranstaltungen: </strong>Veranstaltungssprofile
           innerhalb des sozialen Netzwerks Facebook - Wir nutzen die Funktion
-          "Veranstaltungen" der Facebook-Plattform, um auf Veranstaltungen und
-          Termine hinzuweisen sowie, um mit den Nutzern (Teilnehmern und
-          Interessenten) in Kontakt zu treten sowie um Informationen austauschen
-          zu können. Hierbei verarbeiten wir personenbezogene Daten der Nutzer
-          unserer Veranstaltungsseiten, soweit dies zum Zweck der
-          Veranstaltung-Seite sowie deren Moderation erforderlich ist. Diese
-          Daten umfassen Angaben zu Vor- und Nachnamen, sowie publizierte oder
-          privat mitgeteilte Inhalte, als auch Werte zum Status der Teilnahme
-          als auch die Zeitangaben zu den vorgenannten Daten. Ferner verweisen
-          wir auf die Verarbeitung von Daten der Nutzer durch Facebook selbst.
-          Zu diesen Daten gehören Informationen zu den Arten von Inhalten, die
-          Nutzer sich ansehen oder mit denen sie interagieren, oder die von
-          ihnen vorgenommenen Handlungen (siehe unter „Von dir und anderen
-          getätigte und bereitgestellte Dinge" in der Facebook-Datenrichtlinie:
+          &quot;Veranstaltungen&quot; der Facebook-Plattform, um auf
+          Veranstaltungen und Termine hinzuweisen sowie, um mit den Nutzern
+          (Teilnehmern und Interessenten) in Kontakt zu treten sowie um
+          Informationen austauschen zu können. Hierbei verarbeiten wir
+          personenbezogene Daten der Nutzer unserer Veranstaltungsseiten, soweit
+          dies zum Zweck der Veranstaltung-Seite sowie deren Moderation
+          erforderlich ist. Diese Daten umfassen Angaben zu Vor- und Nachnamen,
+          sowie publizierte oder privat mitgeteilte Inhalte, als auch Werte zum
+          Status der Teilnahme als auch die Zeitangaben zu den vorgenannten
+          Daten. Ferner verweisen wir auf die Verarbeitung von Daten der Nutzer
+          durch Facebook selbst. Zu diesen Daten gehören Informationen zu den
+          Arten von Inhalten, die Nutzer sich ansehen oder mit denen sie
+          interagieren, oder die von ihnen vorgenommenen Handlungen (siehe unter
+          „Von dir und anderen getätigte und bereitgestellte Dinge&quot; in der
+          Facebook-Datenrichtlinie:
           <a href="https://www.facebook.com/privacy/policy/" target="_blank">
             https://www.facebook.com/privacy/policy/
           </a>
           ), sowie Informationen über die von den Nutzern genutzten Geräte
           (z. B. IP-Adressen, Betriebssystem, Browsertyp, Spracheinstellungen,
-          Cookie-Daten; siehe unter „Geräteinformationen" in der
+          Cookie-Daten; siehe unter „Geräteinformationen&quot; in der
           Facebook-Datenrichtlinie:
           <a href="https://www.facebook.com/privacy/policy/" target="_blank">
             https://www.facebook.com/privacy/policy/
           </a>
           ). Wie in der Facebook-Datenrichtlinie unter „Wie verwenden wir diese
-          Informationen?" erläutert, erhebt und verwendet Facebook Informationen
-          auch, um Analysedienste, so genannte "Insights", für
-          Veranstaltungsanbieter bereitzustellen, damit diese Erkenntnisse
-          darüber erhalten, wie Personen mit ihren Veranstaltungsseiten und mit
-          den mit ihnen verbundenen Inhalten interagieren;{" "}
-          <strong>Dienstanbieter:</strong> Meta Platforms Ireland Limited,
-          Merrion Road, Dublin 4, D04 X2K5, Irland;
+          Informationen?&quot; erläutert, erhebt und verwendet Facebook
+          Informationen auch, um Analysedienste, so genannte
+          &quot;Insights&quot;, für Veranstaltungsanbieter bereitzustellen,
+          damit diese Erkenntnisse darüber erhalten, wie Personen mit ihren
+          Veranstaltungsseiten und mit den mit ihnen verbundenen Inhalten
+          interagieren; <strong>Dienstanbieter:</strong> Meta Platforms Ireland
+          Limited, Merrion Road, Dublin 4, D04 X2K5, Irland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://www.facebook.com" target="_blank">
@@ -1605,8 +1609,8 @@ const DataPolicy = () => {
           <strong>LinkedIn: </strong>Soziales Netzwerk - Wir sind gemeinsam mit
           LinkedIn Irland Unlimited Company für die Erhebung (jedoch nicht die
           weitere Verarbeitung) von Daten der Besucher, die zu Zwecken der
-          Erstellung der „Page-Insights" (Statistiken) unserer LinkedIn-Profile
-          erstellt werden, verantwortlich. <br />
+          Erstellung der „Page-Insights&quot; (Statistiken) unserer
+          LinkedIn-Profile erstellt werden, verantwortlich. <br />
           Zu diesen Daten gehören Informationen zu den Arten von Inhalten, die
           Nutzer sich ansehen oder mit denen sie interagieren, oder die von
           ihnen vorgenommenen Handlungen sowie Informationen über die von den
@@ -1623,8 +1627,8 @@ const DataPolicy = () => {
           </a>
           <br />
           Wir haben mit LinkedIn Irland eine spezielle Vereinbarung
-          abgeschlossen ("Page Insights Joint Controller Addendum (the
-          ‚Addendum‘)",
+          abgeschlossen (&quot;Page Insights Joint Controller Addendum (the
+          ‚Addendum‘)&quot;,
           <a
             href="https://legal.linkedin.com/pages-joint-controller-addendum"
             target="_blank">
@@ -1646,7 +1650,7 @@ const DataPolicy = () => {
           Unlimited Company, Wilton Place, Dublin 2, Irland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://www.linkedin.com" target="_blank">
@@ -1673,7 +1677,7 @@ const DataPolicy = () => {
           Cumberland Place, Fenian Street, Dublin 2 D02 AX07, Irland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://x.com" target="_blank">
@@ -1690,9 +1694,9 @@ const DataPolicy = () => {
       <p>
         Wir binden Funktions- und Inhaltselemente in unser Onlineangebot ein,
         die von den Servern ihrer jeweiligen Anbieter (nachfolgend als
-        „Drittanbieter" bezeichnet) bezogen werden. Dabei kann es sich zum
+        „Drittanbieter&quot; bezeichnet) bezogen werden. Dabei kann es sich zum
         Beispiel um Grafiken, Videos oder Stadtpläne handeln (nachfolgend
-        einheitlich als „Inhalte" bezeichnet).
+        einheitlich als „Inhalte&quot; bezeichnet).
       </p>
       <p>
         Die Einbindung setzt immer voraus, dass die Drittanbieter dieser Inhalte
@@ -1702,15 +1706,15 @@ const DataPolicy = () => {
         bemühen uns, nur solche Inhalte zu verwenden, deren jeweilige Anbieter
         die IP-Adresse lediglich zur Auslieferung der Inhalte anzuwenden.
         Drittanbieter können ferner sogenannte Pixel-Tags (unsichtbare Grafiken,
-        auch als „Web Beacons" bezeichnet) für statistische oder Marketingzwecke
-        einsetzen. Durch die „Pixel-Tags" können Informationen, wie etwa der
-        Besucherverkehr auf den Seiten dieser Website, ausgewertet werden. Die
-        pseudonymen Informationen können darüber hinaus in Cookies auf dem Gerät
-        der Nutzer gespeichert werden und unter anderem technische Auskünfte zum
-        Browser und zum Betriebssystem, zu verweisenden Websites, zur
-        Besuchszeit sowie weitere Angaben zur Nutzung unseres Onlineangebots
-        enthalten, aber auch mit solchen Informationen aus anderen Quellen
-        verbunden werden.
+        auch als „Web Beacons&quot; bezeichnet) für statistische oder
+        Marketingzwecke einsetzen. Durch die „Pixel-Tags&quot; können
+        Informationen, wie etwa der Besucherverkehr auf den Seiten dieser
+        Website, ausgewertet werden. Die pseudonymen Informationen können
+        darüber hinaus in Cookies auf dem Gerät der Nutzer gespeichert werden
+        und unter anderem technische Auskünfte zum Browser und zum
+        Betriebssystem, zu verweisenden Websites, zur Besuchszeit sowie weitere
+        Angaben zur Nutzung unseres Onlineangebots enthalten, aber auch mit
+        solchen Informationen aus anderen Quellen verbunden werden.
       </p>
       <p>
         <strong>Hinweise zu Rechtsgrundlagen:</strong> Sofern wir die Nutzer um
@@ -1741,16 +1745,16 @@ const DataPolicy = () => {
         </li>
         <li>
           <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend
-          Angaben im Abschnitt "Allgemeine Informationen zur Datenspeicherung
-          und Löschung". Speicherung von Cookies von bis zu 2 Jahren (Sofern
-          nicht anders angegeben, können Cookies und ähnliche Speichermethoden
-          für einen Zeitraum von zwei Jahren auf den Geräten der Nutzer
-          gespeichert werden.).
+          Angaben im Abschnitt &quot;Allgemeine Informationen zur
+          Datenspeicherung und Löschung&quot;. Speicherung von Cookies von bis
+          zu 2 Jahren (Sofern nicht anders angegeben, können Cookies und
+          ähnliche Speichermethoden für einen Zeitraum von zwei Jahren auf den
+          Geräten der Nutzer gespeichert werden.).
         </li>
         <li className="">
           <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1
-          lit. a) DSGVO). Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-          DSGVO).
+          lit. a) DSGVO. Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
+          DSGVO.
         </li>
       </ul>
       <p>
@@ -1797,9 +1801,9 @@ const DataPolicy = () => {
           erster Linie zum Debugging protokolliert und verwendet, um aggregierte
           Nutzungsstatistiken zu generieren, mit denen die Beliebtheit von
           Schriftfamilien gemessen wird. Diese zusammengefassten
-          Nutzungsstatistiken werden auf der Seite „Analysen" von Google Fonts
-          veröffentlicht. Schließlich wird die Verweis-URL protokolliert, sodass
-          die Daten für die Wartung der Produktion verwendet und ein
+          Nutzungsstatistiken werden auf der Seite „Analysen&quot; von Google
+          Fonts veröffentlicht. Schließlich wird die Verweis-URL protokolliert,
+          sodass die Daten für die Wartung der Produktion verwendet und ein
           aggregierter Bericht zu den Top-Integrationen basierend auf der Anzahl
           der Schriftartenanfragen generiert werden kann. Google verwendet laut
           eigener Auskunft keine der von Google Fonts erfassten Informationen,
@@ -1809,7 +1813,7 @@ const DataPolicy = () => {
           Barrow Street, Dublin 4, Irland;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://fonts.google.com/" target="_blank">
@@ -1845,7 +1849,7 @@ const DataPolicy = () => {
           Apartment 3R, Cambridge, MA 02140, USA;
           <span className="">
             <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO);{" "}
+            Abs. 1 S. 1 lit. f) DSGVO;{" "}
           </span>
           <strong>Website:</strong>
           <a href="https://fontawesome.com/" target="_blank">
@@ -1948,32 +1952,32 @@ const DataPolicy = () => {
           Problembereichen innerhalb digitaler Angebote
         </li>
         <li>
-          <strong>Personenbezogene Daten:</strong> "Personenbezogene Daten" sind
-          alle Informationen, die sich auf eine identifizierte oder
-          identifizierbare natürliche Person (im Folgenden "betroffene Person")
-          beziehen; als identifizierbar wird eine natürliche Person angesehen,
-          die direkt oder indirekt, insbesondere mittels Zuordnung zu einer
-          Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu
-          einer Online-Kennung (z. B. Cookie) oder zu einem oder mehreren
-          besonderen Merkmalen identifiziert werden kann, die Ausdruck der
-          physischen, physiologischen, genetischen, psychischen,
+          <strong>Personenbezogene Daten:</strong> &quot;Personenbezogene
+          Daten&quot; sind alle Informationen, die sich auf eine identifizierte
+          oder identifizierbare natürliche Person (im Folgenden &quot;betroffene
+          Person&quot;) beziehen; als identifizierbar wird eine natürliche
+          Person angesehen, die direkt oder indirekt, insbesondere mittels
+          Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu
+          Standortdaten, zu einer Online-Kennung (z. B. Cookie) oder zu einem
+          oder mehreren besonderen Merkmalen identifiziert werden kann, die
+          Ausdruck der physischen, physiologischen, genetischen, psychischen,
           wirtschaftlichen, kulturellen oder sozialen Identität dieser
           natürlichen Person sind.
         </li>
         <li>
           <strong>Profile mit nutzerbezogenen Informationen:</strong> Die
-          Verarbeitung von "Profilen mit nutzerbezogenen Informationen", bzw.
-          kurz "Profilen" umfasst jede Art der automatisierten Verarbeitung
-          personenbezogener Daten, die darin besteht, dass diese
-          personenbezogenen Daten verwendet werden, um bestimmte persönliche
-          Aspekte, die sich auf eine natürliche Person beziehen (je nach Art der
-          Profilbildung können dazu unterschiedliche Informationen betreffend
-          die Demographie, Verhalten und Interessen, wie z. B. die Interaktion
-          mit Webseiten und deren Inhalten, etc.) zu analysieren, zu bewerten
-          oder, um sie vorherzusagen (z. B. die Interessen an bestimmten
-          Inhalten oder Produkten, das Klickverhalten auf einer Webseite oder
-          den Aufenthaltsort). Zu Zwecken des Profilings werden häufig Cookies
-          und Web-Beacons eingesetzt.
+          Verarbeitung von &quot;Profilen mit nutzerbezogenen
+          Informationen&quot;, bzw. kurz &quot;Profilen&quot; umfasst jede Art
+          der automatisierten Verarbeitung personenbezogener Daten, die darin
+          besteht, dass diese personenbezogenen Daten verwendet werden, um
+          bestimmte persönliche Aspekte, die sich auf eine natürliche Person
+          beziehen (je nach Art der Profilbildung können dazu unterschiedliche
+          Informationen betreffend die Demographie, Verhalten und Interessen,
+          wie z. B. die Interaktion mit Webseiten und deren Inhalten, etc.) zu
+          analysieren, zu bewerten oder, um sie vorherzusagen (z. B. die
+          Interessen an bestimmten Inhalten oder Produkten, das Klickverhalten
+          auf einer Webseite oder den Aufenthaltsort). Zu Zwecken des Profilings
+          werden häufig Cookies und Web-Beacons eingesetzt.
         </li>
         <li>
           <strong>Protokolldaten:</strong> Protokolldaten sind Informationen
@@ -2000,19 +2004,19 @@ const DataPolicy = () => {
           Nutzung eines Onlineangebotes zu erhalten.
         </li>
         <li>
-          <strong>Verantwortlicher:</strong> Als "Verantwortlicher" wird die
-          natürliche oder juristische Person, Behörde, Einrichtung oder andere
-          Stelle, die allein oder gemeinsam mit anderen über die Zwecke und
-          Mittel der Verarbeitung von personenbezogenen Daten entscheidet,
+          <strong>Verantwortlicher:</strong> Als &quot;Verantwortlicher&quot;
+          wird die natürliche oder juristische Person, Behörde, Einrichtung oder
+          andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke
+          und Mittel der Verarbeitung von personenbezogenen Daten entscheidet,
           bezeichnet.
         </li>
         <li>
-          <strong>Verarbeitung:</strong> "Verarbeitung" ist jeder mit oder ohne
-          Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche
-          Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff
-          reicht weit und umfasst praktisch jeden Umgang mit Daten, sei es das
-          Erheben, das Auswerten, das Speichern, das Übermitteln oder das
-          Löschen.
+          <strong>Verarbeitung:</strong> &quot;Verarbeitung&quot; ist jeder mit
+          oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder
+          jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten.
+          Der Begriff reicht weit und umfasst praktisch jeden Umgang mit Daten,
+          sei es das Erheben, das Auswerten, das Speichern, das Übermitteln oder
+          das Löschen.
         </li>
         <li>
           <strong>Vertragsdaten:</strong> Vertragsdaten sind spezifische
