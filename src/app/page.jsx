@@ -122,7 +122,7 @@ const HomeDark = () => {
           {/* Portfolio Content Ends */}
 
           {/* Contact Content Starts */}
-          <TabPanel className="contact">
+          <TabPanel className="contact" id="contact">
             <div
               className="title-section text-start text-sm-center"
               data-aos="fade-up"

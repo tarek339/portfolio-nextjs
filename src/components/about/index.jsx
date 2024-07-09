@@ -6,6 +6,7 @@ import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
 import heroImgMobile from "../../../public/assets/img/hero/img-mobile.jpg";
 import Image from "next/image";
+import { Tab, TabList } from "react-tabs";
 
 const index = () => {
   return (
@@ -38,11 +39,16 @@ const index = () => {
               {/* End personal info */}
 
               {/* <div className="col-12 mt-1">
-                <a className="button" href={cv} download>
-                  <span className="button-text">Download CV</span>
-                  <span className="button-icon fa fa-download"></span>
-                </a>
+                <TabList className="tab-list-contact">
+                  <Tab className="icon-box">
+                    <button className="button revealator-slideup revealator-once revealator-delay1">
+                      <span className="button-text">contact</span>
+                      <span className="button-icon fa fa-envelope-open"></span>
+                    </button>
+                  </Tab>
+                </TabList>
               </div> */}
+
               {/* End download button */}
             </div>
           </div>
