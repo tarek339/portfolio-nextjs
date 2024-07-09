@@ -4,22 +4,6 @@ import Image4 from "../../../public/assets/img/portfolio/fleet-guard/1.png";
 
 const PortfolioData = [
   {
-    id: 3,
-    type: "nu-dx:cycler",
-    image: Image3,
-    tag: [],
-    delayAnimation: "100",
-    modalDetails: [
-      {
-        project: "Desktop App",
-        client: "nu:healthcare GmbH",
-        language: "React.js, Electron.js, TypeScript, Node.js",
-        preview: "Forschung",
-        link: "",
-      },
-    ],
-  },
-  {
     id: 2,
     type: "Quellenchecker",
     image: Image2,
@@ -35,6 +19,23 @@ const PortfolioData = [
       },
     ],
   },
+  {
+    id: 3,
+    type: "nu-dx:cycler",
+    image: Image3,
+    tag: [],
+    delayAnimation: "100",
+    modalDetails: [
+      {
+        project: "Desktop App",
+        client: "nu:healthcare GmbH",
+        language: "React.js, Electron.js, TypeScript, Node.js",
+        preview: "Forschung",
+        link: "",
+      },
+    ],
+  },
+
   {
     id: 4,
     type: "fleet guard",
