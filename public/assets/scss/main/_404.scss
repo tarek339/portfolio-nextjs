@@ -54,28 +54,3 @@
     }
   }
 }
-
-.data-policy-button {
-  padding: 3px 15px 3px 15px;
-  border-radius: 25px;
-  border: none;
-  background-color: #252525;
-
-  margin-top: 1em;
-  font-weight: 500;
-  letter-spacing: 0.1rem;
-  &.dark {
-    background-color: #252525;
-    color: #fff;
-  }
-  &.light {
-    background-color: #eeeeee;
-    color: #666;
-  }
-}
-
-.data-policy-button:hover {
-  background-color: #ffb400;
-  transition: background-color 0.4s, color 0.4s;
-  color: #fff;
-}

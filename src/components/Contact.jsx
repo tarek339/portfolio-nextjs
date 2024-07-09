@@ -110,7 +110,7 @@ const Contact = () => {
               {...register("dataPolicy")}
               required
             />
-            <label className="form-check-label" for="flexCheckDefault">
+            <label className="form-check-label" htmlFor="flexCheckDefault">
               <span>
                 Hiermit akzeptiere ich die Datenschutzbestimmungen der
                 EU-DSGVO.*

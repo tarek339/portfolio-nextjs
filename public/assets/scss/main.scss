@@ -60,3 +60,31 @@
     width: 50%;
   }
 }
+
+body.dark .data-policy-button {
+  padding: 3px 15px 3px 15px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 1em;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  background-color: #252525;
+  color: #fff;
+}
+
+body.light .data-policy-button {
+  padding: 3px 15px 3px 15px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 1em;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  background-color: #eeeeee;
+  color: #666;
+}
+
+.data-policy-button:hover {
+  background-color: #ffb400;
+  transition: background-color 0.4s, color 0.4s;
+  color: #fff;
+}
