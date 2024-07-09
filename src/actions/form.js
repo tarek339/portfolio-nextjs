@@ -15,8 +15,8 @@ export const handleFormData = async (data) => {
     const transport = nodemailer.createTransport({
       service: process.env.NODEMAILER_SERVICE,
       auth: {
-        user: "tarekjassine@gmail.com",
-        pass: "wonoytjxbqgxhjtm",
+        user: process.env.NODEMAILER_USER,
+        pass: process.env.NODEMAILER_SECRET,
       },
     });
 
