@@ -137,13 +137,13 @@ const DataPolicy = () => {
         22391 Hamburg
       </p>
       <p>
-        E-Mail-Adresse:
+        E-Mail-Adresse:&nbsp;
         <a href="mailto:info@tarekstechsolutions.de">
           info@tarekstechsolutions.de
         </a>
       </p>
       <p>
-        Impressum:
+        Impressum:&nbsp;
         <a href="https://www.tarekstechsolutions.de" target="_blank">
           https://www.tarekstechsolutions.de
         </a>
