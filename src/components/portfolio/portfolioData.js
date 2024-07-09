@@ -8,7 +8,7 @@ const PortfolioData = [
     type: "nu-dx:cycler",
     image: Image3,
     tag: [],
-    delayAnimation: "0",
+    delayAnimation: "200",
     modalDetails: [
       {
         project: "Desktop App",
@@ -25,7 +25,7 @@ const PortfolioData = [
     type: "fleet guard",
     image: Image4,
     tag: [""],
-    delayAnimation: "100",
+    delayAnimation: "300",
     modalDetails: [
       {
         project: "Web App",
@@ -41,7 +41,7 @@ const PortfolioData = [
     type: "Quellenchecker",
     image: Image2,
     tag: [""],
-    delayAnimation: "200",
+    delayAnimation: "400",
     modalDetails: [
       {
         project: "Web App",
