@@ -39,6 +39,7 @@ const ModalTwo = ({ modalId, setGetModal }) => {
                           {details.project}
                         </span>
                       </div>
+
                       <div className="col-12 col-sm-6 mb-2">
                         <i className="fa fa-user-o pr-2"></i>
                         Client :{" "}
@@ -46,20 +47,38 @@ const ModalTwo = ({ modalId, setGetModal }) => {
                           {details.client}
                         </span>
                       </div>
+
+                      <div className="col-12 col-sm-6 mb-2">
+                        <i className="fa fa-hourglass-o pr-2"></i>
+                        Dauer :{" "}
+                        <span className="ft-wt-600 uppercase">
+                          {details.time}
+                        </span>
+                      </div>
+                      <div className="col-12 col-sm-6 mb-2">
+                        <i className="fa fa-keyboard-o pr-2"></i>
+                        Rolle :{" "}
+                        <span className="ft-wt-600 uppercase">
+                          {details.role}
+                        </span>
+                      </div>
+
                       <div className="col-12 col-sm-6 mb-2">
                         <i className="fa fa-code pr-2"></i>
-                        Techstack :{" "}
+                        Stack :{" "}
                         <span className="ft-wt-600 uppercase">
                           {details.language}
                         </span>
                       </div>
-                      {/* <div className="col-12 col-sm-6 mb-2">
-                        <i className="fa fa-signal pr-2"></i>
+
+                      <div className="col-12 col-sm-6 mb-2">
+                        <i className="fa fa-building-o pr-2"></i>
                         Branche :{" "}
                         <span className="ft-wt-600 uppercase">
                           {details.preview}
                         </span>
-                      </div> */}
+                      </div>
+
                       {/* <div className="col-12 col-sm-6 mb-2">
                         <i className="fa fa-external-link pr-2"></i>
                         Preview :{" "}

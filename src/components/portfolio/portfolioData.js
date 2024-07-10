@@ -1,6 +1,7 @@
 import Image2 from "../../../public/assets/img/portfolio/haw/1.png";
 import Image3 from "../../../public/assets/img/portfolio/nudx/1.png";
 import Image4 from "../../../public/assets/img/portfolio/fleet-guard/1.png";
+import Image5 from "../../../public/assets/img/portfolio/nginx/1.png";
 
 const PortfolioData = [
   {
@@ -16,6 +17,8 @@ const PortfolioData = [
         language: "React.js, Electron.js, TypeScript, Node.js",
         preview: "Forschung",
         link: "",
+        time: "9 Monate",
+        role: "Fullstack Entwickler",
       },
     ],
   },
@@ -33,6 +36,8 @@ const PortfolioData = [
         language: "React.js, Node.js, Express.js, TypeScript, MongoDB",
         preview: "Logistik",
         link: "",
+        time: "3 Monate",
+        role: "Fullstack Entwickler",
       },
     ],
   },
@@ -49,6 +54,26 @@ const PortfolioData = [
         language: "React.js, Node.js, Express.js, TypeScript, MongoDB",
         preview: "Bildung",
         link: "",
+        time: "3 Monate",
+        role: "Fullstack Entwickler",
+      },
+    ],
+  },
+  {
+    id: 1,
+    type: "Web Server",
+    image: Image5,
+    tag: [""],
+    delayAnimation: "500",
+    modalDetails: [
+      {
+        project: "Installation Webserver",
+        client: "HAW Hamburg UNI",
+        language: "Nginx, MongoDB",
+        preview: "Bildung",
+        link: "",
+        time: "1 Monat",
+        role: "Backend Entwickler",
       },
     ],
   },

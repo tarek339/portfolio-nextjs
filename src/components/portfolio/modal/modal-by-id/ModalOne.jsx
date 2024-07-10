@@ -3,8 +3,8 @@ import React from "react";
 import CloseImg from "../../../../../public/assets/img/cancel.svg";
 import PortfolioData from "../../portfolioData";
 import Slider from "react-slick";
-// import img1 from "../../../../../public/assets/img/portfolio/project-1.jpg";
-// import img2 from "../../../../../public/assets/img/portfolio/project-2.jpg";
+import img1 from "../../../../../public/assets/img/portfolio/nginx/2.png";
+import img2 from "../../../../../public/assets/img/portfolio/nginx/3.png";
 
 const ModalOne = ({ modalId, setGetModal }) => {
   let settings = {
@@ -42,6 +42,22 @@ const ModalOne = ({ modalId, setGetModal }) => {
                           {details.client}
                         </span>
                       </div>
+
+                      <div className="col-12 col-sm-6 mb-2">
+                        <i className="fa fa-hourglass-o pr-2"></i>
+                        Dauer :{" "}
+                        <span className="ft-wt-600 uppercase">
+                          {details.time}
+                        </span>
+                      </div>
+                      <div className="col-12 col-sm-6 mb-2">
+                        <i className="fa fa-keyboard-o pr-2"></i>
+                        Rolle :{" "}
+                        <span className="ft-wt-600 uppercase">
+                          {details.role}
+                        </span>
+                      </div>
+
                       <div className="col-12 col-sm-6 mb-2">
                         <i className="fa fa-code pr-2"></i>
                         Techstack :{" "}
@@ -49,33 +65,35 @@ const ModalOne = ({ modalId, setGetModal }) => {
                           {details.language}
                         </span>
                       </div>
+
                       <div className="col-12 col-sm-6 mb-2">
                         <i className="fa fa-external-link pr-2"></i>
-                        Preview :{" "}
-                        <a
-                          className="preview-link"
-                          target="_blank"
-                          rel="noopener noreferrer nofollow"
-                          href={details.link}>
-                          {details.preview}
-                        </a>
+                        Preview : <span>{details.preview}</span>
                       </div>
                     </div>
                   );
                 })}
               </div>
-              <figure className="modal__img">
-                {/* <Slider {...settings}>
+              <figure style={{ maxHeight: "350px" }} className="modal__img">
+                <Slider {...settings}>
                   <div>
                     <Image src={item.image} alt="portfolio project demo" />
                   </div>
                   <div>
-                    <Image src={img1} alt="portfolio project demo" />
+                    <Image
+                      style={{ maxHeight: "329px" }}
+                      src={img1}
+                      alt="portfolio project demo"
+                    />
                   </div>
                   <div>
-                    <Image src={img2} alt="portfolio project demo" />
+                    <Image
+                      style={{ maxHeight: "329px" }}
+                      src={img2}
+                      alt="portfolio project demo"
+                    />
                   </div>
-                </Slider> */}
+                </Slider>
               </figure>
 
               <button
