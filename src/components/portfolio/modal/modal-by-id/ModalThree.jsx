@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 // internal
 import CloseImg from "../../../../../public/assets/img/cancel.svg";
 import PortfolioData from "../../portfolioData";
+import imgTitle from "../../../../../public/assets/img/portfolio/nudx/1.png";
 import img1 from "../../../../../public/assets/img/portfolio/nudx/3.png";
 import img2 from "../../../../../public/assets/img/portfolio/nudx/5.png";
 import img3 from "../../../../../public/assets/img/portfolio/nudx/9.png";
@@ -81,6 +82,9 @@ const ModalThree = ({ modalId, setGetModal }) => {
               </div>
               <figure className="modal__img">
                 <Slider {...settings}>
+                  <div>
+                    <Image src={imgTitle} alt="portfolio project demo" />
+                  </div>
                   <div>
                     <Image src={img1} alt="portfolio project demo" />
                   </div>

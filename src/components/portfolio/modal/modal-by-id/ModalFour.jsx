@@ -3,6 +3,7 @@ import React from "react";
 import CloseImg from "../../../../../public/assets/img/cancel.svg";
 import PortfolioData from "../../portfolioData";
 import Slider from "react-slick";
+import imgTitle from "../../../../../public/assets/img/portfolio/fleet-guard/1.png";
 import img1 from "../../../../../public/assets/img/portfolio/fleet-guard/2.png";
 import img2 from "../../../../../public/assets/img/portfolio/fleet-guard/3.png";
 import img3 from "../../../../../public/assets/img/portfolio/fleet-guard/4.png";
@@ -77,6 +78,9 @@ const ModalFour = ({ modalId, setGetModal }) => {
               </div>
               <figure style={{ maxHeight: "300px" }} className="modal__img">
                 <Slider {...settings}>
+                  <div>
+                    <Image src={imgTitle} alt="portfolio project demo" />
+                  </div>
                   <div>
                     <Image src={img1} alt="portfolio project demo" />
                   </div>

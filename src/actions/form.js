@@ -43,7 +43,7 @@ export const handleFormData = async (data) => {
       Classenweg 21<br>
       22391 Hamburg<br>
       USt.-IdNr.: DE355575992<br>
-      Tel.: +49176/ 1426 6116<br>
+      Tel.: +49 176/ 1426 6116<br>
       E-Mail: info@tarekstechsolutions.de<br>
       Website: www.tarekstechsolutions.de</p>`,
     });
