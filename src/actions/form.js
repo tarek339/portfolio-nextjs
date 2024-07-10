@@ -13,15 +13,18 @@ export const handleFormData = async (data) => {
     const dataPolicy = data.dataPolicy;
 
     const transport = nodemailer.createTransport({
-      service: process.env.NODEMAILER_SERVICE,
+      // service: process.env.NODEMAILER_SERVICE,
+      host: process.env.NODEMAILER_SERVICE,
+      port: 465,
+      secure: true,
       auth: {
         user: process.env.NODEMAILER_USER,
-        pass: process.env.NODEMAILER_SECRET,
+        pass: process.env.NODEMAILER_PASSWORD,
       },
     });
 
     await transport.sendMail({
-      from: process.env.NODEMAILER_EMAIL_FROM,
+      from: process.env.NODEMAILER_USER,
       to: email,
       subject: `Ihre Anfrage vom ${new Date().toLocaleDateString("de-DE")}`,
       html: `<p>Guten Tag,</p>
@@ -49,8 +52,8 @@ export const handleFormData = async (data) => {
     });
 
     await transport.sendMail({
-      from: process.env.NODEMAILER_EMAIL_FROM,
-      to: process.env.NODEMAILER_EMAIL_TO,
+      from: process.env.NODEMAILER_USER,
+      to: process.env.NODEMAILER_USER,
       subject: `Anfrage vom ${new Date().toLocaleDateString("de-DE")}`,
       html: `<p>Vorname: ${firstName}</p>
             <p>Nachname: ${lastName}</p>
