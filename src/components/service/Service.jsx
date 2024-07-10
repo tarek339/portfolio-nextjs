@@ -1,5 +1,6 @@
 import React from "react";
 import AllBlogData from "../../Hooks/AllBlogData";
+import Image from "next/image";
 
 const Service = () => {
   const { blogsData } = AllBlogData();
@@ -18,7 +19,7 @@ const Service = () => {
         </h5>
       </div>
 
-      <div className="row" id="modal">
+      <div className="row" style={{ margin: "0 auto" }} id="modal">
         {blogsData.map((item) => (
           <div
             key={item.id}
@@ -26,11 +27,7 @@ const Service = () => {
             <article className="post-container">
               {/* <div className="post-thumb">
                 <div className="d-block position-relative overflow-hidden">
-                  <Image
-                    src={item?.img}
-                    className="img-fluid"
-                    alt="item.title"
-                  />
+                  <Image src={""} className="img-fluid" alt="item.title" />
                 </div>
               </div> */}
               {/* End .thumb */}
