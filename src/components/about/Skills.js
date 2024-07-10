@@ -9,6 +9,8 @@ import express from "../../../public/assets/svg/express.svg";
 import mongo from "../../../public/assets/svg/mongo.svg";
 import git from "../../../public/assets/svg/git.svg";
 import vscode from "../../../public/assets/svg/vscode.svg";
+import next from "../../../public/assets/svg/next.svg";
+import nginx from "../../../public/assets/svg/nginx.svg";
 import Image from "next/image";
 
 const skillsContent = [
@@ -17,11 +19,13 @@ const skillsContent = [
   { skillClass: js, skillPercent: "90", skillName: "JAVASCRIPT" },
   { skillClass: ts, skillPercent: "85", skillName: "TYPESCRIPT" },
   { skillClass: react, skillPercent: "90", skillName: "REACT.JS" },
+  { skillClass: next, skillPercent: "90", skillName: "NEXT.JS" },
   { skillClass: node, skillPercent: "80", skillName: "NODE.JS" },
   { skillClass: express, skillPercent: "90", skillName: "EXPRESS.JS" },
-  { skillClass: mongo, skillPercent: "75", skillName: "mongo" },
-  // { skillClass: git, skillPercent: "75", skillName: "GIT" },
-  // { skillClass: vscode, skillPercent: "75", skillName: "vscode" },
+  { skillClass: mongo, skillPercent: "75", skillName: "MONGODB" },
+  { skillClass: git, skillPercent: "75", skillName: "GIT" },
+  { skillClass: vscode, skillPercent: "75", skillName: "VSCODE" },
+  { skillClass: nginx, skillPercent: "75", skillName: "NGINX" },
 ];
 
 const Skills = () => {

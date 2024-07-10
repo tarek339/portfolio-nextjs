@@ -94,7 +94,9 @@ body.light .data-policy-button {
   color: #666;
 }
 
-.data-policy-button:hover {
+.data-policy-button:hover,
+body.light .data-policy-button:hover,
+body.dark .data-policy-button:hover {
   background-color: #ffb400;
   transition: background-color 0.4s, color 0.4s;
   color: #fff;
