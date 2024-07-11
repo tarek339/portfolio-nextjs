@@ -13,7 +13,6 @@ export const handleFormData = async (data) => {
     const dataPolicy = data.dataPolicy;
 
     const transport = nodemailer.createTransport({
-      // service: process.env.NODEMAILER_SERVICE,
       host: process.env.NODEMAILER_SERVICE,
       port: 465,
       secure: true,
@@ -26,35 +25,45 @@ export const handleFormData = async (data) => {
     await transport.sendMail({
       from: process.env.NODEMAILER_USER,
       to: email,
-      subject: `Ihre Anfrage vom ${new Date().toLocaleDateString("de-DE")}`,
-      html: `<p>Guten Tag,</p>
+      subject: `Ihre Anfrage an Tarek's Tech Solutions`,
+      html: `
+    <div
+      style="
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 400px;
+        color: #252525;
+      ">
+      <h3>Hallo ${firstName} ${lastName},</h3>
 
-      <p>Ich freue mich über Ihre Kontaktanfrage</p>
+      <p style="font-size: 15px">Ich freue mich über Ihre Kontaktanfrage.</p>
 
-      <p>Ich werde mich in Kürze mit Ihnen in Verbindung setzen,<br>
-      um weitere Details zu besprechen und auf Ihre Anforderungen einzugehen.<br>
-      Dabei stehen Ihre individuellen Bedürfnisse im Vordergrund.</p>
+      <p style="font-size: 15px">
+        Ich werde mich in Kürze mit Ihnen in Verbindung setzen,<br />
+        um weitere Details zu besprechen und um auf Ihre Wünsche einzugehen.<br />
+      </p>
 
-      <p>Falls in der Zwischenzeit weitere Fragen auftreten sollten,<br>
-      zögern Sie bitte nicht, mich zu kontaktieren.<br>
-      Ich bin gerne für Sie da und freue mich darauf, Ihnen weiterzuhelfen.</p>
+      <p style="font-size: 15px">Freundliche Grüße</p>
+      <p style="font-size: 15px">Tarek Jassine</p>
 
-      <p>Mit freundlichen Grüßen</p>
+      <div style="margin-bottom: 15px">
+        <span style="margin-bottom: 3px">Tarek's Tech Solutions</span><br />
+        <span style="margin-bottom: 3px">Classenweg 21, 22391 Hamburg</span
+        ><br />
+        <span style="margin-bottom: 3px">USt.-IdNr.: DE355575992 </span>
+      </div>
 
-      <p>Tarek Jassine<br>
-      Tarek's Tech Solutions<br>
-      Classenweg 21<br>
-      22391 Hamburg<br>
-      USt.-IdNr.: DE355575992<br>
-      Tel.: +49 176/ 1426 6116<br>
-      E-Mail: info@tarekstechsolutions.de<br>
-      Website: www.tarekstechsolutions.de</p>`,
+      <span style="margin-bottom: 3px">Tel.: +49 176/ 1426 6116</span><br />
+      <span style="margin-bottom: 3px">E-Mail: info@tarekstechsolutions.de</span
+      ><br />
+      <span style="margin-bottom: 3px">Web: www.tarekstechsolutions.de</span>
+    </div>
+      `,
     });
 
     await transport.sendMail({
       from: process.env.NODEMAILER_USER,
       to: process.env.NODEMAILER_USER,
-      subject: `Anfrage vom ${new Date().toLocaleDateString("de-DE")}`,
+      subject: `Kundenanfrage`,
       html: `<p>Vorname: ${firstName}</p>
             <p>Nachname: ${lastName}</p>
             <p>E-Mail: ${email}</p>
