@@ -4,9 +4,8 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-import heroImgMobile from "../../../public/assets/img/hero/img-mobile.jpg";
+import heroImgMobile from "../../../public/assets/img/hero/2.jpg";
 import Image from "next/image";
-import { Tab, TabList } from "react-tabs";
 
 const index = () => {
   return (
