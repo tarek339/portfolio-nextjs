@@ -36,8 +36,8 @@
 }
 
 .form-check-input:checked {
-  background-color: #ffb400;
-  border-color: #ffb400;
+  background-color: var(--main-primary-color);
+  border-color: var(--main-primary-color);
 }
 
 .form-check-input:focus {
@@ -96,7 +96,21 @@ body.light .data-policy-button {
 .data-policy-button:hover,
 body.light .data-policy-button:hover,
 body.dark .data-policy-button:hover {
-  background-color: #ffb400;
+  background-color: var(--main-primary-color);
   transition: background-color 0.4s, color 0.4s;
   color: #fff;
+}
+
+.portfolio-title {
+  margin-bottom: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-primary-color);
+}
+
+.service-title {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  color: var(--main-primary-color);
 }

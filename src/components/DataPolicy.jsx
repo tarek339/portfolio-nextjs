@@ -5,7 +5,7 @@ const DataPolicy = () => {
   useEffect(() => {
     const elements = document.getElementsByTagName("a");
     Array.from(elements).forEach((element) => {
-      element.style.color = "#ffb400";
+      element.style.color = "var(--main-primary-color)";
     });
   }, []);
   return (

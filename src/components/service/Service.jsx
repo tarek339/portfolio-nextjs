@@ -6,13 +6,7 @@ const Service = () => {
   const { blogsData } = AllBlogData();
   return (
     <>
-      <div
-        style={{
-          marginBottom: "25px",
-          display: "flex",
-          justifyContent: "center",
-          color: "#ffb400",
-        }}>
+      <div className="service-title">
         <h5 className="servie-header">
           Hochwertige, innovative und sichere Software- und Weblösungen, um
           Ihren digitalen Fußabdruck zu verbessern.

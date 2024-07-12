@@ -19,13 +19,7 @@ const Portfolio = () => {
     <>
       <div className="portfolio-main">
         <Tabs>
-          <div
-            style={{
-              marginBottom: "35px",
-              textAlign: "center",
-              textTransform: "uppercase",
-              color: "#ffb400",
-            }}>
+          <div className="portfolio-title">
             <h5>Recent Projects</h5>
           </div>
 
