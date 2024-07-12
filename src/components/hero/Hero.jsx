@@ -8,7 +8,7 @@ import AboutMain from "../about";
 import Image from "next/image";
 
 const heroContent = {
-  heroImage: "/assets/img/hero/dark.jpg",
+  heroImage: "/assets/img/hero/1.jpg",
   heroMobileImage: heroImgMobile,
   heroTitleName: "Tarek",
   heroDesignation: "Webentwickler",
@@ -30,8 +30,7 @@ const Hero = () => {
       <div className="row home-details-container align-items-center">
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
-          style={{ backgroundImage: `url(${heroContent.heroImage})` }}
-        ></div>
+          style={{ backgroundImage: `url(${heroContent.heroImage})` }}></div>
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
             <Image
@@ -62,8 +61,7 @@ const Hero = () => {
         className="custom-modal dark hero"
         overlayClassName="custom-overlay dark"
         closeTimeoutMS={500}
-        ariaHideApp={false}
-      >
+        ariaHideApp={false}>
         <div>
           <button className="close-modal" onClick={toggleModalOne}>
             <Image src={cancelImg} alt="close icon" />
