@@ -31,8 +31,9 @@
 }
 
 .form-check-input {
-  height: 17px;
-  width: 17px;
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
 }
 
 .form-check-input:checked {
@@ -41,7 +42,7 @@
 }
 
 .form-check-input:focus {
-  border-color: #ddd;
+  border-color: transparent;
   outline: 0;
   box-shadow: none;
 }
@@ -113,4 +114,11 @@ body.dark .data-policy-button:hover {
   display: flex;
   justify-content: center;
   color: var(--main-primary-color);
+}
+
+.data-policy-modal {
+  color: var(--main-primary-color);
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
 }

@@ -1,11 +1,17 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { handleFormData } from "../actions/form";
+import DataPolicyModal from "./DataPolicyModal";
 
 const Contact = () => {
   const { register, handleSubmit, reset } = useForm();
+  const [isOpen, setIsOpen] = useState(false);
+
+  function toggleModal() {
+    setIsOpen(!isOpen);
+  }
 
   const onSubmit = (data) => {
     handleFormData(data);
@@ -22,6 +28,7 @@ const Contact = () => {
 
   return (
     <>
+      <DataPolicyModal isOpen={isOpen} toggleModal={toggleModal} />
       <form
         id="myForm"
         className="contactform"
@@ -110,10 +117,13 @@ const Contact = () => {
               {...register("dataPolicy")}
               required
             />
-            <label className="form-check-label" htmlFor="flexCheckDefault">
+            <label className="form-check-label">
               <span>
-                Hiermit akzeptiere ich die Datenschutzbestimmungen der
-                EU-DSGVO.*
+                Hiermit akzeptiere ich die{" "}
+                <span onClick={toggleModal} className="data-policy-modal">
+                  Datenschutzbestimmungen
+                </span>{" "}
+                der EU-DSGVO.*
               </span>
             </label>
           </div>
