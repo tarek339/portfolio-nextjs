@@ -11,6 +11,29 @@ export const metadata = {
     type: "website",
     locale: "de-DE",
     url: process.env.METADATA_URL,
+    siteName: "Tarek's Tech Solutions",
+    images: [
+      {
+        width: 1200,
+        height: 630,
+        alt: "Tarek Jassine | Webentwickler",
+      },
+    ],
+  },
+  twitter: {
+    title: "Webentwicklung Hamburg",
+    description: "Web- und Softwareentwicklung Hamburg",
+    type: "website",
+    locale: "de-DE",
+    url: process.env.METADATA_URL,
+    siteName: "Tarek's Tech Solutions",
+    images: [
+      {
+        width: 1200,
+        height: 630,
+        alt: "Tarek Jassine | Webentwickler",
+      },
+    ],
   },
 };
 
