@@ -11,7 +11,6 @@ import SwitchDark from "../components/switch/SwitchDark";
 import { useEffect } from "react";
 import Aos from "aos";
 import Service from "../components/service/Service";
-import SEO from "../components/Seo";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
@@ -32,7 +31,6 @@ const HomeDark = () => {
     <div className="yellow">
       <SwitchDark />
       {/* End Switcher */}
-      <SEO />
       <Tabs>
         <div className="header">
           <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
