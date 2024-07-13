@@ -31,6 +31,7 @@ const HomeDark = () => {
     <div className="yellow">
       <SwitchDark />
       {/* End Switcher */}
+
       <Tabs>
         <div className="header">
           <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
