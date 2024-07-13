@@ -14,7 +14,7 @@ const heroContent = {
   heroDesignation: "Webentwickler",
   heroDescriptions: `Als Web- und Softwareentwickler mit Sitz in Hamburg, strebe ich danach, 
   saubere und benutzerfreundliche Erlebnisse zu schaffen. 
-  Meine Leidenschaft liegt darin, hervorragende Software zu entwickeln, 
+  Meine Leidenschaft liegt darin, hervorragende Websites und Software zu entwickeln, 
   die das Leben der Menschen in meiner Umgebung verbessert.`,
   heroBtn: "mehr über mich",
 };
@@ -37,7 +37,6 @@ const Hero = () => {
               src={heroContent.heroMobileImage}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
-              // style={{ width: "100%", height: "100%" }}
             />
             <h1 className="text-uppercase poppins-font">
               {"Hi, ich bin"} {heroContent.heroTitleName}.
