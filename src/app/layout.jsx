@@ -22,6 +22,8 @@ export const metadata = {
     siteName: "Tarek's Tech Solutions",
   },
   twitter: {
+    creator: "@Tarek25986815",
+    site: "@Tarek25986815",
     title: "Webentwicklung Hamburg",
     description: `Als erfahrener Webentwickler aus Hamburg spezialisiere 
   ich mich auf die Entwicklung von serverseitigen Webseiten und Webanwendungen. 
