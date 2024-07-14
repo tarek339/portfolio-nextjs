@@ -12,10 +12,10 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Tarek",
   heroDesignation: "Webentwickler",
-  heroDescriptions: `Als Web- und Softwareentwickler mit Sitz in Hamburg, strebe ich danach, 
-  saubere und benutzerfreundliche Erlebnisse zu schaffen. 
-  Meine Leidenschaft liegt darin, hervorragende Websites und Software zu entwickeln, 
-  die das Leben der Menschen in meiner Umgebung verbessert.`,
+  heroDescriptions: `Als erfahrener Web- und Softwareentwickler mit Sitz in Hamburg bin ich in der Lage, 
+  Anwendungen jeglicher Art mit den neuesten Technologien wie JavaScript, React, Next.js und Node.js zu entwickeln. 
+  Meine Expertise erstreckt sich über verschiedene Plattformen und ich strebe stets danach, 
+  saubere und benutzerfreundliche Erlebnisse zu schaffen, die das Leben der Menschen in meiner Umgebung verbessern.`,
   heroBtn: "mehr über mich",
 };
 
