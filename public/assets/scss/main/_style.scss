@@ -46,6 +46,7 @@ Version: 1.0
 html {
   overflow-x: hidden;
   height: 100%;
+  scroll-behavior: smooth;
 }
 :root {
   --blue: #4169e1;

@@ -1,0 +1,49 @@
+.navbar {
+  background-color: #111;
+  width: 100%;
+  padding: 20px 40px;
+  position: fixed;
+}
+
+.navbar-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.child-element {
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: color 0.3s;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.child-element:hover {
+  color: var(--main-primary-color);
+  transition: color 0.3s;
+}
+
+.holder {
+  position: relative;
+}
+
+.item-border {
+  position: absolute;
+  border-bottom: 5px solid;
+  z-index: 1;
+  width: 110px;
+  top: 46.8px;
+  transition: left 0.3s, border-color 0.3s;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

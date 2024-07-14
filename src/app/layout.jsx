@@ -1,3 +1,4 @@
+import Navbar from "../components/Navbar";
 import "../styles/index.scss";
 
 export const metadata = {
@@ -5,12 +6,12 @@ export const metadata = {
   title: "Webentwicklung Hamburg",
   description: `Als Web- und Softwareentwickler mit Sitz in Hamburg, strebe ich danach, 
   saubere und benutzerfreundliche Erlebnisse zu schaffen. Meine Leidenschaft liegt darin, 
-  hervorragende Websites und Software zu entwickeln, die das Leben der Menschen in meiner Umgebung verbessert.`,
+  hervorragende Webseiten und Software zu entwickeln, die das Leben der Menschen in meiner Umgebung verbessert.`,
   openGraph: {
     title: "Webentwicklung Hamburg",
     description: `Als Web- und Softwareentwickler mit Sitz in Hamburg, strebe ich danach, 
   saubere und benutzerfreundliche Erlebnisse zu schaffen. Meine Leidenschaft liegt darin, 
-  hervorragende Websites und Software zu entwickeln, die das Leben der Menschen in meiner Umgebung verbessert.`,
+  hervorragende Webseiten und Software zu entwickeln, die das Leben der Menschen in meiner Umgebung verbessert.`,
     type: "website",
     locale: "de-DE",
     url: process.env.METADATA_URL,
@@ -22,7 +23,7 @@ export const metadata = {
     title: "Webentwicklung Hamburg",
     description: `Als Web- und Softwareentwickler mit Sitz in Hamburg, strebe ich danach, 
   saubere und benutzerfreundliche Erlebnisse zu schaffen. Meine Leidenschaft liegt darin, 
-  hervorragende Websites und Software zu entwickeln, die das Leben der Menschen in meiner Umgebung verbessert.`,
+  hervorragende Webseiten und Software zu entwickeln, die das Leben der Menschen in meiner Umgebung verbessert.`,
     type: "website",
     locale: "de-DE",
     url: process.env.METADATA_URL,
@@ -33,7 +34,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="de">
-      <body>{children}</body>
+      <body>
+        <div style={{ position: "relative" }}>
+          <Navbar />
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
