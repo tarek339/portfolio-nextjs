@@ -1,9 +1,7 @@
 import React from "react";
-import AllBlogData from "../../Hooks/AllBlogData";
-import Image from "next/image";
+import { serviceData } from "./serviceData";
 
 const Service = () => {
-  const { blogsData } = AllBlogData();
   return (
     <>
       <div className="service-title">
@@ -14,7 +12,7 @@ const Service = () => {
       </div>
 
       <div className="row" style={{ margin: "0 auto" }} id="modal">
-        {blogsData.map((item) => (
+        {serviceData.map((item) => (
           <div
             key={item.id}
             className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">

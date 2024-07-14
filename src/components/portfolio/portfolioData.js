@@ -3,7 +3,7 @@ import Image3 from "../../../public/assets/img/portfolio/nudx/1.png";
 import Image4 from "../../../public/assets/img/portfolio/fleet-guard/1.png";
 import Image5 from "../../../public/assets/img/portfolio/nginx/1.png";
 
-const PortfolioData = [
+const portfolioData = [
   {
     id: 3,
     type: "nu-dx:cycler",
@@ -79,4 +79,4 @@ const PortfolioData = [
   },
 ];
 
-export default PortfolioData;
+export default portfolioData;

@@ -1,5 +1,4 @@
-import Head from "next/head";
-import Wrapper from "../layout/wrapper";
+import Header from "../components/Header";
 import "../styles/index.scss";
 
 export const metadata = {
@@ -35,10 +34,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="de">
-      <link rel="icon" href="/favicon.ico" />
-      <body>
-        <Wrapper>{children}</Wrapper>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
