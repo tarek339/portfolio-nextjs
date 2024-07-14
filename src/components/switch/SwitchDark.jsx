@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
-import lightImage from "../../../public/assets/img/sun.png";
+import lightImage from "../../../public/assets/svg/sun.svg";
 import handleSwitchValue from "../../../utils/theme";
 
 const SwitchDark = () => {

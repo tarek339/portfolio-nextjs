@@ -3,7 +3,7 @@ export default function sitemap() {
     {
       url: process.env.METADATA_URL,
       lastModified: new Date(),
-      changeFrequency: "yearly",
+      changeFrequency: "weekly",
       priority: 1,
     },
   ];

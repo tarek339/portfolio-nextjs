@@ -25,7 +25,7 @@ export const handleFormData = async (data) => {
     await transport.sendMail({
       from: process.env.NODEMAILER_USER,
       to: email,
-      subject: `Ihre Anfrage an Tarek's Tech Solutions`,
+      subject: `Deine Anfrage an Tarek's Tech Solutions`,
       html: `
     <div
       style="
@@ -35,11 +35,11 @@ export const handleFormData = async (data) => {
       ">
       <h3>Hallo ${firstName} ${lastName},</h3>
 
-      <p style="font-size: 15px">Ich freue mich über Ihre Kontaktanfrage.</p>
+      <p style="font-size: 15px">Ich freue mich über deine Kontaktanfrage.</p>
 
       <p style="font-size: 15px">
-        Ich werde mich in Kürze mit Ihnen in Verbindung setzen,<br />
-        um weitere Details zu besprechen und um auf Ihre Wünsche einzugehen.<br />
+        Ich werde mich in Kürze mit die in Verbindung setzen,<br />
+        um weitere Details zu besprechen und um auf deine Wünsche einzugehen.<br />
       </p>
 
       <p style="font-size: 15px">Freundliche Grüße</p>

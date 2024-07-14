@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Wrapper from "../layout/wrapper";
 import "../styles/index.scss";
 
@@ -40,6 +41,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="de">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body>
         <Wrapper>{children}</Wrapper>
       </body>

@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const SEO = ({ pageTitle }) => (
+const SEO = () => (
   <>
     <Head>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -11,7 +11,6 @@ const SEO = ({ pageTitle }) => (
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
       <link rel="icon" href="/favicon.ico" />
-      <title>{pageTitle}</title>
     </Head>
   </>
 );

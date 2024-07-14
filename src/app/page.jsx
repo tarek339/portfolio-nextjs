@@ -11,6 +11,7 @@ import SwitchDark from "../components/switch/SwitchDark";
 import { useEffect } from "react";
 import Aos from "aos";
 import Service from "../components/service/Service";
+import SEO from "../components/Seo";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
@@ -29,6 +30,7 @@ const HomeDark = () => {
 
   return (
     <div className="yellow">
+      <SEO />
       <SwitchDark />
       {/* End Switcher */}
 
@@ -134,9 +136,9 @@ const HomeDark = () => {
                     {"Don't"} be shy !
                   </h3>
                   <p className="open-sans-font mb-4">
-                    Nehmen Sie einfach Kontakt mit mir auf. Ich bin immer offen
-                    für neue Projekte, kreative Ideen oder Möglichkeiten, an
-                    Ihren Visionen mitzuwirken.
+                    Schreib mir einfach eine Nachricht. Ich bin immer offen für
+                    neue Projekte, kreative Ideen oder Möglichkeiten, an deinen
+                    Visionen mitzuwirken.
                   </p>
                   <Address />
                   {/* End Address */}
