@@ -20,7 +20,9 @@ const Portfolio = () => {
       <div className="portfolio-main">
         <Tabs>
           <div className="portfolio-title">
-            <h5>Recent Projects</h5>
+            <h3 className="text-uppercase custom-title mb-0 ft-wt-600">
+              recent projects
+            </h3>
           </div>
 
           <div className="container">
