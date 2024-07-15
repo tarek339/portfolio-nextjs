@@ -13,6 +13,7 @@
 @import "main/slick";
 @import "main/switcher";
 @import "main/style";
+@import "main/data-policy";
 
 // skin
 @import "main/skins/yellow";
@@ -59,47 +60,6 @@
   }
 }
 
-.data-policy-button {
-  padding: 3px 15px 3px 15px;
-  border-radius: 25px;
-  border: none;
-  margin-top: 1em;
-  font-weight: 500;
-  letter-spacing: 0.1rem;
-  background-color: #252525;
-  color: #fff;
-}
-
-body.dark .data-policy-button {
-  padding: 3px 15px 3px 15px;
-  border-radius: 25px;
-  border: none;
-  margin-top: 1em;
-  font-weight: 500;
-  letter-spacing: 0.1rem;
-  background-color: #252525;
-  color: #fff;
-}
-
-body.light .data-policy-button {
-  padding: 3px 15px 3px 15px;
-  border-radius: 25px;
-  border: none;
-  margin-top: 1em;
-  font-weight: 500;
-  letter-spacing: 0.1rem;
-  background-color: #eeeeee;
-  color: #666;
-}
-
-.data-policy-button:hover,
-body.light .data-policy-button:hover,
-body.dark .data-policy-button:hover {
-  background-color: var(--main-primary-color);
-  transition: background-color 0.4s, color 0.4s;
-  color: #fff;
-}
-
 .portfolio-title {
   margin-bottom: 35px;
   text-align: center;
@@ -112,11 +72,4 @@ body.dark .data-policy-button:hover {
   display: flex;
   justify-content: center;
   color: var(--main-primary-color);
-}
-
-.data-policy-modal {
-  color: var(--main-primary-color);
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: underline;
 }

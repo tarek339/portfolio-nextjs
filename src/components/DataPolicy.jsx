@@ -1,15 +1,9 @@
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React from "react";
 
 const DataPolicy = () => {
-  useEffect(() => {
-    const elements = document.getElementsByTagName("a");
-    Array.from(elements).forEach((element) => {
-      element.style.color = "var(--main-primary-color)";
-    });
-  }, []);
   return (
-    <div style={{ padding: "15px" }}>
+    <div>
       <h1>Datenschutzerklärung</h1>
       <h2 id="m716">Präambel</h2>
       <p>
