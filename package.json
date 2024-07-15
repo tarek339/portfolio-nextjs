@@ -23,6 +23,7 @@
     "react-slick": "^0.29.0",
     "react-tabs": "^6.0.2",
     "sass": "^1.56.0",
+    "sharp": "^0.33.4",
     "slick-carousel": "^1.8.1"
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
