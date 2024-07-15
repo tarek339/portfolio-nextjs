@@ -1,22 +1,12 @@
-"use client";
-
 import Hero from "../components/hero/Hero";
 import AboutMain from "../components/about";
 import Portfolio from "../components/portfolio/Portfolio";
 import Address from "../components/Address";
 import Social from "../components/Social";
 import Contact from "../components/Contact";
-import { useEffect } from "react";
-import Aos from "aos";
 import Service from "../components/service/Service";
 
 const HomeDark = () => {
-  useEffect(() => {
-    Aos.init({
-      duration: 1200,
-    });
-  }, []);
-
   return (
     <div className="yellow">
       {/* End Menu Content */}

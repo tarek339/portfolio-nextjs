@@ -36,5 +36,9 @@
   "bugs": {
     "url": "https://github.com/tarek339/portfolio-nextjs/issues"
   },
-  "homepage": "https://github.com/tarek339/portfolio-nextjs#readme"
+  "homepage": "https://github.com/tarek339/portfolio-nextjs#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "purgecss": "^6.0.0"
+  }
 }
