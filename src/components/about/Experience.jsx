@@ -18,7 +18,7 @@ const experienceContent = [
   },
   {
     year: "- 2022",
-    position: "Webentwickler/Verkehrsleiter",
+    position: "Webentwickler / Verkehrsleiter",
     compnayName: "Freelance",
     details: `Entwicklung und Wartung einer Webanwendung zur Überwachung und Verwaltung von Terminen 
     sowie Gültigkeitsprüfungen von Fahrerdokumenten, HU- und SP-Fristen für Fahrzeuge. 
