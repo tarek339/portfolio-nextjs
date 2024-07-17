@@ -3,14 +3,14 @@ export const serviceData = [
     id: 1,
     // img: img1,
     title: "website",
-    description: `Maßgeschneiderte Webentwicklung für Unternehmen jeder Größe, 
+    description: `Maßgeschneiderte Webseiten für Unternehmen jeder Größe, 
       um die Online-Präsenz zu verbessern und Geschäftswachstum zu fördern.`,
   },
   {
     id: 2,
     // img: img2,
     title: "web app",
-    description: `Die Entwicklung von Webanwendungen ermöglicht es Unternehmen, 
+    description: `Webanwendungen ermöglich es Unternehmen, 
       ihren Kunden einen Online-Service anzubieten und ihr Geschäft optimal zu präsentieren.`,
   },
   {
@@ -39,6 +39,6 @@ export const serviceData = [
     // img: img6,
     title: "hosting / wartung",
     description: `Sicherstellung eines reibungslosen Webhostings und konsequente Wartung, 
-      um Ihre Onlinepräsenz zu sichern und sie auf dem neusten Stand zu halten.`,
+      um die Onlinepräsenz zu sichern und sie auf dem neusten Stand zu halten.`,
   },
 ];

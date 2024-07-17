@@ -1283,14 +1283,6 @@ body.light .contact .custom-span-contact a {
   }
 }
 
-.blog-post .meta span {
-  padding-right: 15px;
-}
-
-.blog-post .meta i {
-  padding-right: 3px;
-}
-
 /* [ RESPONSIVE DESIGN STYLES ] */
 
 @media (min-width: 1351px) {
@@ -1377,127 +1369,6 @@ body.light .contact .custom-span-contact a {
     margin: 10px 0 23px;
     font-size: 15px;
     line-height: 30px;
-  }
-
-  #menuToggle {
-    display: inline-block;
-    position: fixed;
-    top: 30px;
-    right: 30px;
-    z-index: 1111;
-    user-select: none;
-    padding: 19px 0 0 16px;
-    width: 54px;
-    height: 54px;
-    border-radius: 5px;
-    background: #252525;
-  }
-
-  #menuToggle input {
-    display: flex;
-    width: 54px;
-    height: 54px;
-    position: absolute;
-    cursor: pointer;
-    opacity: 0;
-    z-index: 2;
-    top: 0;
-    left: 0;
-  }
-
-  #menuToggle > span {
-    display: flex;
-    width: 23px;
-    height: 2px;
-    margin-bottom: 5px;
-    position: relative;
-    background: #ffffff;
-    border-radius: 3px;
-    z-index: 1;
-    transform-origin: 5px 0;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-  }
-
-  #menuToggle > span:first-child {
-    transform-origin: 0 0;
-  }
-
-  #menuToggle > span:nth-last-child(2) {
-    transform-origin: 0 100%;
-  }
-
-  #menuToggle input:checked ~ span {
-    opacity: 1;
-    transform: rotate(45deg) translate(4px, 0);
-    background: #fff;
-  }
-
-  #menuToggle input:checked ~ span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
-
-  #menuToggle input:checked ~ span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(2px, 4px);
-  }
-
-  #menu {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding-top: 60px;
-    background-color: #252525;
-    -webkit-font-smoothing: antialiased;
-    transform-origin: 0 0;
-    transform: translate(-100%, 0);
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  }
-
-  #menuToggle input:checked ~ ul {
-    transform: none;
-  }
-
-  #menu li {
-    position: relative;
-    padding-left: 30px;
-  }
-
-  #menu li:after {
-    position: absolute;
-    content: "";
-    height: 1px;
-    width: calc(100% - 60px);
-    background: #333;
-    left: 30px;
-  }
-
-  #menu li:last-child:after {
-    display: none;
-  }
-
-  #menu li.active a span {
-    font-weight: 600;
-  }
-
-  #menu li a {
-    color: #fff;
-    text-transform: uppercase;
-    transition-delay: 2s;
-    font-size: 26px;
-    display: block;
-    text-decoration: none;
-    padding: 14px 0;
-    position: relative;
-  }
-
-  #menu li a span {
-    position: absolute;
-    left: 50px;
-    font-weight: 400;
   }
 
   .portfolio .grid li {
@@ -1954,32 +1825,6 @@ button:focus {
   }
 }
 
-.demo-sticker {
-  background: #2b2a2a;
-  position: fixed;
-  right: 30px;
-  top: 20px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 99;
-  @media (max-width: 991px) {
-    right: 15px;
-  }
-  a {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    padding: 10px;
-    cursor: pointer !important;
-    text-decoration: none;
-  }
-}
 .green {
   color: #5be85b;
 }
