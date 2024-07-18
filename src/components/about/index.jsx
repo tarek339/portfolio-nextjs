@@ -23,13 +23,13 @@ const index = () => {
               </div>
               {/* End .col */}
 
-              {/* <div className="col-12 d-block d-sm-none">
-                <Image
+              <div className="col-12 d-block d-sm-none">
+                {/* <Image
                   src={heroImgMobile}
                   className="img-fluid main-img-mobile"
                   alt="about avatar"
-                />
-              </div> */}
+                /> */}
+              </div>
               {/* image for mobile menu */}
 
               <div className="col-12">

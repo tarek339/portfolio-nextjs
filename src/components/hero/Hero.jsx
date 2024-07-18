@@ -30,7 +30,7 @@ const Hero = () => {
             {"Hi, ich bin"} {heroContent.heroTitleName}.
             <span>{heroContent.heroDesignation}</span>
           </h1>
-          <p className="open-sans-font">{heroContent.heroDescriptions}</p>
+          {/* <p className="open-sans-font">{heroContent.heroDescriptions}</p> */}
         </div>
       </div>
     </div>
