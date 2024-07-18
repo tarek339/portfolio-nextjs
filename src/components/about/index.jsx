@@ -24,11 +24,11 @@ const index = () => {
               {/* End .col */}
 
               <div className="col-12 d-block d-sm-none">
-                {/* <Image
+                <Image
                   src={heroImgMobile}
                   className="img-fluid main-img-mobile"
                   alt="about avatar"
-                /> */}
+                />
               </div>
               {/* image for mobile menu */}
 
