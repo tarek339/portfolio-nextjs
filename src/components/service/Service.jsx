@@ -7,7 +7,7 @@ const Service = () => {
       <div className="service-title">
         <h5 className="servie-header">
           Hochwertige, innovative und sichere Software- und Weblösungen, um
-          Ihren digitalen Fußabdruck zu verbessern.
+          deinen digitalen Fußabdruck zu verbessern.
         </h5>
       </div>
 
