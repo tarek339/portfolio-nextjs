@@ -4,8 +4,6 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-import heroImgMobile from "../../../public/assets/img/hero/2.jpg";
-import Image from "next/image";
 
 const index = () => {
   return (
@@ -23,30 +21,10 @@ const index = () => {
               </div>
               {/* End .col */}
 
-              {/* <div className="col-12 d-block d-sm-none">
-                <Image
-                  src={heroImgMobile}
-                  className="img-fluid main-img-mobile"
-                  alt="about avatar"
-                />
-              </div> */}
-              {/* image for mobile menu */}
-
               <div className="col-12">
                 <PersonalInfo />
               </div>
               {/* End personal info */}
-
-              {/* <div className="col-12 mt-1">
-                <TabList className="tab-list-contact">
-                  <Tab className="icon-box">
-                    <button className="button revealator-slideup revealator-once revealator-delay1">
-                      <span className="button-text">contact</span>
-                      <span className="button-icon fa fa-envelope-open"></span>
-                    </button>
-                  </Tab>
-                </TabList>
-              </div> */}
 
               {/* End download button */}
             </div>
