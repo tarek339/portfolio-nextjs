@@ -1,7 +1,15 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import { serviceData } from "./serviceData";
+import Aos from "aos";
 
 const Service = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1200,
+    });
+  }, []);
   return (
     <>
       <div className="service-title">

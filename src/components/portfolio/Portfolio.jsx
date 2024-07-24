@@ -1,10 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Tabs, TabPanel } from "react-tabs";
 import Image from "next/image";
 import ModalMain from "./modal/ModalMain";
 import portfolioData from "./portfolioData";
+import Aos from "aos";
 
 const Portfolio = () => {
   const [getModal, setGetModal] = useState(false);
@@ -14,6 +15,12 @@ const Portfolio = () => {
     setGetModal(true);
     setModalId(id);
   };
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1200,
+    });
+  }, []);
 
   return (
     <>

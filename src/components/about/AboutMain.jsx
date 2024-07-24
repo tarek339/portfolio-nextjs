@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import Achievements from "./Achievements";
 import Education from "./Education";
 import Experience from "./Experience";
@@ -6,8 +8,14 @@ import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
 import heroImgMobile from "../../../public/assets/img/hero/2.jpg";
 import Image from "next/image";
+import Aos from "aos";
 
-const index = () => {
+const AboutMain = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1200,
+    });
+  }, []);
   return (
     <section className="main-content ">
       <div className="container">
@@ -36,17 +44,6 @@ const index = () => {
                 <PersonalInfo />
               </div>
               {/* End personal info */}
-
-              {/* <div className="col-12 mt-1">
-                <TabList className="tab-list-contact">
-                  <Tab className="icon-box">
-                    <button className="button revealator-slideup revealator-once revealator-delay1">
-                      <span className="button-text">contact</span>
-                      <span className="button-icon fa fa-envelope-open"></span>
-                    </button>
-                  </Tab>
-                </TabList>
-              </div> */}
 
               {/* End download button */}
             </div>
@@ -100,4 +97,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default AboutMain;
