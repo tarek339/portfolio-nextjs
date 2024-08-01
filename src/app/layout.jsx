@@ -1,6 +1,6 @@
 import "../styles/index.scss";
 
-const title = "Web & Software Development Hamburg";
+const title = "Webentwicklung Hamburg";
 const description = `Als erfahrener Web- und Softwareentwickler mit Sitz in Hamburg bin ich in der Lage, 
   Anwendungen jeglicher Art mit den neuesten Technologien wie JavaScript, React, Next.js und Node.js zu entwickeln. 
   Meine Expertise erstreckt sich über verschiedene Plattformen und ich strebe stets danach, 
