@@ -39,6 +39,6 @@ export const serviceData = [
     // img: img6,
     title: "hosting / wartung",
     description: `Sicherstellung eines reibungslosen Webhostings und konsequente Wartung, 
-      um Ihre Onlinepräsenz zu sichern und sie auf dem neusten Stand zu halten.`,
+      um deine Onlinepräsenz zu sichern und sie auf dem neusten Stand zu halten.`,
   },
 ];
